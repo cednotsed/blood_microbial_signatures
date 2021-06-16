@@ -32,7 +32,7 @@ for (i in cohorts) {
 
 meta_sub <- meta_filt %>%
   filter(npm_research_id %in% subset_vec) %>%
-  select(site_supplying_sample)
+  select(site_supplying_sample, multiplex_pool_id, npm_research_id)
 
-fwrite(meta_sub, "meta_sub.csv", row.names = F)
+fwrite(meta_sub, "meta_sub.csv", row.names = F, col.names = F, sep = ",")
 
