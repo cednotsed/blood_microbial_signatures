@@ -1,12 +1,15 @@
+setwd("../Desktop/git_repos/blood_microbiome")
 require(data.table)
 require(tidyverse)
 require(ggplot2)
-df <- fread("data/SG10K_Health_dgo_metadata.n10714.13Aug20.txt")
-df
+df <- fread("data/SG10K_Health_metadata.n10714.16March2021.txt")
+View(df)
 
+columns <- colnames(df)
+to_keep <- columns[!(columns %in% )]
 filt <- df %>%
-  select(Ethnicity, "Supplied gender", "Extraction kit", "Year of birth", 
-         "Extraction date", "Plate position", "Plate ID", "Designed cov", 
+  select("Self Reported Ethnicity", "Supplied Gender", "Extraction Kit", "Year Of Birth", 
+         "Extraction Date", "Plate position", "Plate ID", "Designed cov", 
          "CREATED_BY", "PROJECT_ID", "Library prep kit",
          "Instrument ID") %>%
   mutate(across(everything(), ~replace(., . == "", "unknown")))
