@@ -1,0 +1,4 @@
+output_type,size_mb,cores,mem,time_s
+BAM,362,20,80,246
+BAM.gz,83,-,-,-
+fastq,264,-,-,1 
