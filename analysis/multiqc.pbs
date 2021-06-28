@@ -1,0 +1,18 @@
+#!/bin/bash
+#PBS -q normal
+#PBS -l select=1:ncpus=24:mem=1G
+#PBS -l walltime=10:00:00
+#PBS -P 14001280
+
+## Run MultiQC to collate all fastqc reports ##
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate base
+
+WKDIR=/home/projects/14001280/PROJECTS/blood_microbiome
+
+for j in `seq 5`
+do
+        in=${WKDIR}/results/qc/fastqc_reports/0${j}_fastq
+	out=${WKDIR}/results/qc/multiqc_reports/0${j}_fastq
+	multiqc ${in} -o ${out}
+done

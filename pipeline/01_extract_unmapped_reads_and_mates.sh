@@ -18,16 +18,14 @@ output3=${WKDIR}/01_fastq/${MUX}.${SAMPLE}.unmapped-both-read-and-mate.2.fastq
 start=`date +%s`
 
 # Extract unmapped reads from CRAM --> BAM
-#samtools view -@ $N_THREADS -u -f12 -F256 ${input} \
-#	> ${output1}
+samtools view -@ $N_THREADS -u -f12 -F256 ${input} \
+	> ${output1}
 
 # Convert BAM to fastq
 # Query sort BAM file
 samtools sort -n -o ${sorted_bam} ${output1}
 
 # Sorted BAM --> fastq
-#samtools bam2fq ${sorted_bam} \
-#	> ${output}
 bedtools bamtofastq -i ${sorted_bam} -fq ${output2} -fq2 ${output3}
 
 end=`date +%s`

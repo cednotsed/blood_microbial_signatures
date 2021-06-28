@@ -1,9 +1,8 @@
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate metameta
-
 COHORT='HELIOS'
-MUX='MUX9693'
-SAMPLE='WHB10000'
+MUX='MUX9846'
+SAMPLE='WHB10117'
 WKDIR='/home/projects/14001280/PROJECTS/blood_microbiome/data/temp_files'
 N_THREADS=10
 
