@@ -26,7 +26,7 @@ subset_vec <- c()
 
 for (i in cohorts) {
   ids <- meta_filt$npm_research_id[meta_filt$site_supplying_sample == i]
-  subset_ids <- sample(ids, 10)
+  subset_ids <- sample(ids, 50)
   subset_vec <- c(subset_vec, subset_ids)
 }
 

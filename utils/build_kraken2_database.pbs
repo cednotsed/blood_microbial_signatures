@@ -1,0 +1,11 @@
+#!/bin/bash
+#PBS -q normal
+#PBS -l select=1:ncpus=24:mem=96G
+#PBS -l walltime=5:00:00
+#PBS -P 14001280
+
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate base
+
+DBNAME=/home/projects/14001280/PROJECTS/blood_microbiome/database/standard_kraken2_120721
+kraken2-build --standard --threads 24 --db $DBNAME

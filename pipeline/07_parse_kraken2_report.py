@@ -35,8 +35,7 @@ def parser(file_list, input_dir, rank='species'):
 
             # Retrieve taxa rank of choice
             assert rank in df['rank'].unique()
-            rank_df = df[df['rank'] == rank]
-            rank_df = rank_df[['taxName', 'cum_reads']]
+            rank_df = df.loc[df['rank'].isin([rank, 'U']), ['taxName', 'cum_reads']]
 
             # Strip whitespace
             rank_df.loc[:, 'taxName'] = rank_df.loc[:, 'taxName'].str.strip()
@@ -86,7 +85,7 @@ outfile = f'{prefix}.{rank}.tsv'
 ####################
 
 file_list = os.listdir(input_dir)
-print(file_list)
+#print(file_list)
 
 # Make directory if !exist
 if input_dir.exists():

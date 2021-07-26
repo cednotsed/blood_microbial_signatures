@@ -10,7 +10,8 @@ SAMPLE=$3
 WKDIR=$4
 N_THREADS=$5
 
-input=/data/13000026/shared/13000026_${COHORT}/rpd-sg10k-grch38-gatk4-gvcf-freebayes-vcf/${MUX}/${SAMPLE}/${SAMPLE}.bqsr.cram
+input=/data/13000026/shared/13000026_${COHORT}/rpd-sg10k-grch38-gatk4-gvcf-freebayes-vcf/*/${SAMPLE}/${SAMPLE}.bqsr.cram
+#input=/data/13000026/shared/13000026_${COHORT}/rpd-sg10k-grch38-gatk4-gvcf-freebayes-vcf/${MUX}/${SAMPLE}/${SAMPLE}.bqsr.cram
 output1=${WKDIR}/01_bam/${MUX}.${SAMPLE}.unmapped-both-read-and-mate.bam
 sorted_bam=${WKDIR}/01_bam/${MUX}.${SAMPLE}.unmapped-both-read-and-mate.qsort.bam
 output2=${WKDIR}/01_fastq/${MUX}.${SAMPLE}.unmapped-both-read-and-mate.1.fastq

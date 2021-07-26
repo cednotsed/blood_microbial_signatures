@@ -15,13 +15,15 @@ output2=${WKDIR}/03_fastq/${MUX}.${SAMPLE}.unmapped-both-read-and-mate.2.trimmed
 # Filter reads with less than average of Q20
 start=`date +%s`
 
-bbduk.sh \
-	in1=${input1} \
-	in2=${input2} \
-	out1=${output1} \
-	out2=${output2} \
-        maq=20 \
-	overwrite=t
+#bbduk.sh \
+#	in1=${input1} \
+#	in2=${input2} \
+#	out1=${output1} \
+#	out2=${output2} \
+#        maq=20 \
+#	overwrite=t
+cp ${input1} ${output1}
+cp ${input2} ${output2}
 
 end=`date +%s`
 runtime=$((end-start))

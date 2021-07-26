@@ -2,14 +2,15 @@
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate base
 
+n_subset=10
 SCRIPTS=/home/projects/14001280/PROJECTS/blood_microbiome/pipeline
-WKDIR=/home/projects/14001280/PROJECTS/blood_microbiome/data/temp_files/
+WKDIR=/home/projects/14001280/PROJECTS/blood_microbiome/data/temp_files_${n_subset}/
 N_THREADS=$5
 
 input_dir=${WKDIR}/06_reports
 output_dir=${WKDIR}/07_abundance_matrix
-rank='F'
-prefix='subset_100'
+rank='S'
+prefix=abundance_matrix.subset_${n_subset}
 delim='.'
 
 

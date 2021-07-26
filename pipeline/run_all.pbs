@@ -1,9 +1,8 @@
 #!/bin/bash
 #PBS -q normal
-#PBS -l select=1:ncpus=24:mem=24G
-#PBS -l walltime=10:00:00
+#PBS -l select=1:ncpus=24:mem=48G
+#PBS -l walltime=50:00:00
 #PBS -P 14001280
-#PBS -N /home/projects/14001280/PROJECTS/blood_microbiome/pipeline/pbs_output/test_extraction_24c_24G
 
 ## Extract unmapped read and mates from CRAM files ##
 # Input: CRAM file
@@ -11,10 +10,14 @@
 
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate metameta
-
-WKDIR=/home/projects/14001280/PROJECTS/blood_microbiome/data/temp_files
+n_subset=50
+WKDIR=/home/projects/14001280/PROJECTS/blood_microbiome/data/temp_files_${n_subset}
 SCRIPTS=/home/projects/14001280/PROJECTS/blood_microbiome/pipeline
 N_THREADS=24
+
+# Create directories 
+mkdir ${WKDIR}
+mkdir ${WKDIR}/01_bam ${WKDIR}/01_fastq/ ${WKDIR}/02_fastq/ ${WKDIR}/03_fastq/ ${WKDIR}/04_fastq/ ${WKDIR}/05_fastq/ ${WKDIR}/06_reports/ ${WKDIR}/06_unclassified_fastq/ ${WKDIR}/07_abundance_matrix/
 
 while read line
 do
@@ -25,44 +28,23 @@ do
 	echo $COHORT $MUX $SAMPLE
         
 	# Step 1: Extract unmapped read and mates from CRAM files
-        tput setaf 2; echo Extracting...
-        tput sgr0
         sh ${SCRIPTS}/01_extract_unmapped_reads_and_mates.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS
-        tput setaf 2; echo Extracting done.
-        tput sgr0
         
         # Step 2: Trim 5' and 3' ends of reads below Qxx quality and Ns
-        tput setaf 2; echo Trimming...
-        tput sgr0
         sh ${SCRIPTS}/02_trim.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS
-        tput setaf 2; echo Trimming done.
-        tput sgr0
         
         # Step 3: Filter reads below Qxx
-        tput setaf 2; echo Filtering...
-        tput sgr0
         sh ${SCRIPTS}/03_filter.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS
-        tput setaf 2; echo Filtering done.
-        tput sgr0
         
         # Step 4: Remove low complexity reads
-        tput setaf 2; echo Removing low complexity reads...
-        tput sgr0
         sh ${SCRIPTS}/04_remove_low_complexity.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS
-        tput setaf 2; echo Low complexity removal done.
-        tput sgr0
         
         # Step 5: Host decontamination
-        tput setaf 2; echo Host decontamination...
-        tput sgr0
         sh ${SCRIPTS}/05_host_decontamination.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS
-        tput setaf 2; echo Decontamination done.
-        tput sgr0
         
         # Step 6: Kraken2 classification
-        tput setaf 2; echo Kraken2 classification...
-        tput sgr0
         sh ${SCRIPTS}/06_kraken2_assignment.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS
-        tput setaf 2; echo Classification done.
-        tput sgr0
-done < ${WKDIR}/../subset_list_10.csv 
+
+done < ${WKDIR}/../subset_list_${n_subset}.csv
+
+echo -------SCRIPT COMPLETE------- 

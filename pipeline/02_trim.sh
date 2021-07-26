@@ -23,6 +23,7 @@ start=`date +%s`
 cutadapt \
 	--cores $N_THREADS \
         -q 10,10 \
+	--minimum-length 75 \
         --trim-n \
         -o ${output1} \
 	-p ${output2} \
