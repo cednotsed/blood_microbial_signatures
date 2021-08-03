@@ -1,0 +1,3 @@
+Module	Section	Sample Name	Source
+Samtools	stats	samtools_stats.SSMP_060_to_069.SSM063.unmapped-both-read-and-mate	/home/projects/14001280/PROJECTS/blood_microbiome/results/map_to_human_out/samtools_stats.SSMP_060_to_069.SSM063.unmapped-both-read-and-mate.txt
+Samtools	flagstat	samtools_flagstat.SSMP_060_to_069.SSM063.unmapped-both-read-and-mate	/home/projects/14001280/PROJECTS/blood_microbiome/results/map_to_human_out/samtools_flagstat.SSMP_060_to_069.SSM063.unmapped-both-read-and-mate.txt

@@ -2,9 +2,10 @@
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate base
 
-n_subset=10
+n_subset=100
 SCRIPTS=/home/projects/14001280/PROJECTS/blood_microbiome/pipeline
-WKDIR=/home/projects/14001280/PROJECTS/blood_microbiome/data/temp_files_${n_subset}/
+WKDIR=/home/projects/14001280/PROJECTS/blood_microbiome/data/temp_files_${n_subset}
+#WKDIR=/scratch/users/astar/gis/tancsc/blood_microbiome_files
 N_THREADS=$5
 
 input_dir=${WKDIR}/06_reports

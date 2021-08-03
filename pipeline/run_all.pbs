@@ -10,7 +10,7 @@
 
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate metameta
-n_subset=50
+n_subset=100
 WKDIR=/home/projects/14001280/PROJECTS/blood_microbiome/data/temp_files_${n_subset}
 SCRIPTS=/home/projects/14001280/PROJECTS/blood_microbiome/pipeline
 N_THREADS=24

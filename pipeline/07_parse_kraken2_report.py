@@ -31,12 +31,12 @@ def parser(file_list, input_dir, rank='species'):
             df = pd.read_csv(input_dir / file_name, sep='\t', header=None)
             df.columns = ['%', 'cum_reads', 'reads', 'rank', 'taxID', 'taxName']
             run_names = file_name.split(delim)
-            runid = run_names[0] + '_' + run_names[1]
+            runid = run_names[0] + '.' + run_names[1]
 
             # Retrieve taxa rank of choice
             assert rank in df['rank'].unique()
             rank_df = df.loc[df['rank'].isin([rank, 'U']), ['taxName', 'cum_reads']]
-
+            print(rank_df)
             # Strip whitespace
             rank_df.loc[:, 'taxName'] = rank_df.loc[:, 'taxName'].str.strip()
 
