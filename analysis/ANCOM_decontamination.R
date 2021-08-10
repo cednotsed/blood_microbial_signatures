@@ -189,6 +189,7 @@ decontaminate <- function(n_subset) {
 #}
 #
 #plots
+print("start decontamination")
 
 nc_list <- list()
 

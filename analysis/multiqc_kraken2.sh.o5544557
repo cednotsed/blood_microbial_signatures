@@ -1,0 +1,16 @@
+Searching   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 145592/145592  ======================================================================================
+
+			Resource Usage on 2021-08-09 17:40:48.652048:
+
+	JobId: 5544557.wlm01  
+	Project: 14001280 
+	Exit Status: 0
+	NCPUs Requested: 8				NCPUs Used: 8
+							CPU Time Used: 01:10:05
+	Memory Requested: 32gb 				Memory Used: 7588512kb
+							Vmem Used: 9102048kb
+	Walltime requested: 30:00:00 			Walltime Used: 01:25:20
+	
+	Execution Nodes Used: (std0370:ncpus=8:mem=33554432kb)
+	
+ ======================================================================================
