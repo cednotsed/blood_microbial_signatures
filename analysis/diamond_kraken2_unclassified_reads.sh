@@ -30,6 +30,7 @@ diamond blastx \
 	-o ${RESDIR}/subset_100_unclassified.tsv \
 	-b 20 \
 	-c 5 \
+	--outfmt 6 \
 	--ultra-sensitive
 
 
