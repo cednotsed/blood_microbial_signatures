@@ -3,7 +3,8 @@
 #PBS -l select=1:ncpus=24:mem=48G
 #PBS -l walltime=90:00:00
 #PBS -P personal-tancsc
-#PBS -N run_kraken2
+#PBS -N part_09
+n=09
 
 ## Extract unmapped read and mates from CRAM files ##
 # Input: CRAM file
@@ -46,6 +47,6 @@ do
         # Step 6: Kraken2 classification
         sh ${SCRIPTS}/06_kraken2_assignment.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS
 
-done < /home/projects/14001280/PROJECTS/blood_microbiome/data/subset_list_9999.csv
+done < /home/projects/14001280/PROJECTS/blood_microbiome/data/file_lists/n9970_list_part_${n}.csv
 
 echo -------SCRIPT COMPLETE------- 
