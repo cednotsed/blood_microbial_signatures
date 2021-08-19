@@ -1,0 +1,17 @@
+done concatenating
+======================================================================================
+
+			Resource Usage on 2021-08-17 17:53:56.249508:
+
+	JobId: 5613007.wlm01  
+	Project: 14001280 
+	Exit Status: 271
+	NCPUs Requested: 24				NCPUs Used: 24
+							CPU Time Used: 115:32:36
+	Memory Requested: 96gb 				Memory Used: 14652596kb
+							Vmem Used: 22137144kb
+	Walltime requested: 05:00:00 			Walltime Used: 05:01:41
+	
+	Execution Nodes Used: (std0235:ncpus=24:mem=100663296kb)
+	
+ ======================================================================================
