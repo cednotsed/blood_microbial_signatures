@@ -1,9 +1,9 @@
 #!/bin/bash
 #PBS -q normal
-#PBS -l select=1:ncpus=5:mem=10G
-#PBS -l walltime=10:00:00
+#PBS -l select=1:ncpus=24:mem=48G
+#PBS -l walltime=08:00:00
 #PBS -P 14001280
-#PBS -N subset_10_pipeline_2
+#PBS -N subset_10_pipeline_2.24n.48g
 ## Extract unmapped read and mates from CRAM files ##
 # Input: CRAM file
 # Output: fastq file containing read and mates
@@ -13,7 +13,7 @@ conda activate metameta
 n_subset=10
 WKDIR=/home/projects/14001280/PROJECTS/blood_microbiome/data/temp_files_${n_subset}.pipeline_2
 SCRIPTS=/home/projects/14001280/PROJECTS/blood_microbiome/pipeline_2
-N_THREADS=5
+N_THREADS=24
 
 # Create directories 
 mkdir ${WKDIR}
