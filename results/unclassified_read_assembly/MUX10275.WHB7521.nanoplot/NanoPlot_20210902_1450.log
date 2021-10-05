@@ -1,0 +1,13 @@
+2021-09-02 14:50:18,951 NanoPlot 1.38.1 started with arguments Namespace(threads=12, verbose=False, store=False, raw=False, huge=False, outdir='.', prefix='', tsv_stats=False, info_in_report=False, maxlength=None, minlength=None, drop_outliers=False, downsample=None, loglength=False, percentqual=False, alength=False, minqual=None, runtime_until=None, readtype='1D', barcoded=False, no_supplementary=False, color='#4CB391', colormap='Greens', format='png', plots=['kde', 'dot'], legacy=None, listcolors=False, listcolormaps=False, no_N50=False, N50=True, title=None, font_scale=1, dpi=100, hide_stats=False, fastq=None, fasta=['../MUX10275.WHB7521.raw_assemblies.fa'], fastq_rich=None, fastq_minimal=None, summary=None, bam=None, ubam=None, cram=None, pickle=None, feather=None, path='./')
+2021-09-02 14:50:18,951 Python version is: 3.9.6 | packaged by conda-forge | (default, Jul 11 2021, 03:39:48)  [GCC 9.3.0]
+2021-09-02 14:50:19,569 Nanoget: Starting to collect statistics from a fasta file.
+2021-09-02 14:50:19,741 Reduced DataFrame memory usage from 0.0516204833984375Mb to 0.0516204833984375Mb
+2021-09-02 14:50:19,752 Nanoget: Gathered all metrics of 3383 reads
+2021-09-02 14:50:19,763 Calculated statistics
+2021-09-02 14:50:19,764 Using sequenced read lengths for plotting.
+2021-09-02 14:50:19,770 NanoPlot:  Valid color #4CB391.
+2021-09-02 14:50:19,770 NanoPlot:  Valid colormap Greens.
+2021-09-02 14:50:19,771 NanoPlot:  Creating length plots for Read length.
+2021-09-02 14:50:19,772 NanoPlot: Using 3383 reads with read length N50 of 638bp and maximum of 5774bp.
+2021-09-02 14:50:27,854 No static plots are saved due to some kaleido problem:
+2021-09-02 14:50:27,854 Transform failed with error code 1: Failed to serialize document: Uncaught
