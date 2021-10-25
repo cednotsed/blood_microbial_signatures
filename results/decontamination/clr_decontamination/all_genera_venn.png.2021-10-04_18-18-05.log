@@ -1,9 +1,0 @@
-INFO [2021-10-04 18:18:05] [[1]]
-INFO [2021-10-04 18:18:05] venn_list_all
-INFO [2021-10-04 18:18:05] 
-INFO [2021-10-04 18:18:05] $filename
-INFO [2021-10-04 18:18:05] [1] "results/decontamination/clr_decontamination/all_genera_venn.png"
-INFO [2021-10-04 18:18:05] 
-INFO [2021-10-04 18:18:05] $category.names
-INFO [2021-10-04 18:18:05] c("All genera", "Human associated", "Kitome associated")
-INFO [2021-10-04 18:18:05] 

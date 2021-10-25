@@ -1,9 +1,0 @@
-INFO [2021-10-04 18:19:43] [[1]]
-INFO [2021-10-04 18:19:43] venn_list_nc
-INFO [2021-10-04 18:19:43] 
-INFO [2021-10-04 18:19:43] $filename
-INFO [2021-10-04 18:19:43] [1] "results/decontamination/clr_decontamination/identified_nc_genera_venn.png"
-INFO [2021-10-04 18:19:43] 
-INFO [2021-10-04 18:19:43] $category.names
-INFO [2021-10-04 18:19:43] c("Non-contaminants", "Human associated", "Kitome associated")
-INFO [2021-10-04 18:19:43] 
