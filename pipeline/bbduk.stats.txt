@@ -1,4 +1,0 @@
-#File	../data/test.1.fastq	../data/test.2.fastq
-#Total	31212	4681800
-#Matched	0	0.00000%
-#Name	Reads	ReadsPct	Bases	BasesPct

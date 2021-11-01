@@ -1,0 +1,1033 @@
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 64074 sequences (9659449 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 85, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (290, 332, 362)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (146, 506)
+[M::mem_pestat] mean and std.dev: (325.99, 53.78)
+[M::mem_pestat] low and high boundaries for proper pairs: (74, 578)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 64074 reads in 5.474 CPU sec, 1.793 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX5850.WHB1091.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX5850.WHB1091.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 2.235 sec; CPU: 5.595 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 15622 sequences (2332163 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 153, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (293, 320, 367)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (145, 515)
+[M::mem_pestat] mean and std.dev: (331.00, 61.93)
+[M::mem_pestat] low and high boundaries for proper pairs: (71, 589)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 15622 reads in 1.325 CPU sec, 0.461 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX5255.WHH4997.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX5255.WHH4997.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 0.657 sec; CPU: 1.376 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 9668 sequences (1442720 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 459, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (360, 420, 484)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (112, 732)
+[M::mem_pestat] mean and std.dev: (425.66, 95.80)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 856)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 9668 reads in 0.872 CPU sec, 0.269 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX4127.WHH1906.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX4127.WHH1906.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 0.441 sec; CPU: 0.900 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 10688 sequences (1594062 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 95, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (325, 389, 431)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (113, 643)
+[M::mem_pestat] mean and std.dev: (381.60, 99.30)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 779)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 10688 reads in 0.854 CPU sec, 0.292 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX4150.WHH2170.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX4150.WHH2170.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 0.457 sec; CPU: 0.897 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 32140 sequences (4809843 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 1947, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (346, 405, 465)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (108, 703)
+[M::mem_pestat] mean and std.dev: (407.42, 88.63)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 822)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 32140 reads in 3.368 CPU sec, 0.953 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX3949.WHH1248.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX3949.WHH1248.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 1.210 sec; CPU: 3.446 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 397718 sequences (60000282 bp)...
+[M::process] read 397780 sequences (60000060 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 37, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (304, 379, 438)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (36, 706)
+[M::mem_pestat] mean and std.dev: (374.49, 117.88)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 846)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 397718 reads in 34.653 CPU sec, 10.187 real sec
+[M::process] read 397850 sequences (60000172 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 35, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (241, 391, 489)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 985)
+[M::mem_pestat] mean and std.dev: (353.23, 193.54)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1233)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 397780 reads in 32.639 CPU sec, 8.479 real sec
+[M::process] read 397768 sequences (60000055 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 43, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (339, 400, 455)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (107, 687)
+[M::mem_pestat] mean and std.dev: (413.05, 79.25)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 803)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 397850 reads in 33.441 CPU sec, 8.510 real sec
+[M::process] read 397754 sequences (60000289 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 25, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (309, 386, 467)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 783)
+[M::mem_pestat] mean and std.dev: (355.76, 137.30)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 941)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 397768 reads in 34.454 CPU sec, 9.579 real sec
+[M::process] read 397860 sequences (60000173 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 31, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (312, 381, 483)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 825)
+[M::mem_pestat] mean and std.dev: (374.94, 146.62)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 996)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 397754 reads in 34.265 CPU sec, 8.535 real sec
+[M::process] read 182398 sequences (27504614 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 45, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (331, 395, 448)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (97, 682)
+[M::mem_pestat] mean and std.dev: (397.32, 82.16)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 799)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 397860 reads in 32.759 CPU sec, 9.999 real sec
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 18, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (286, 353, 491)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 901)
+[M::mem_pestat] mean and std.dev: (335.89, 161.22)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1106)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 182398 reads in 15.672 CPU sec, 4.243 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/PRISM_topup.0416-0030.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/PRISM_topup.0416-0030.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 60.859 sec; CPU: 218.514 sec
+[bam_sort_core] merging from 1 files and 1 in-memory blocks...
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 13586 sequences (2024429 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 105, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (364, 410, 460)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (172, 652)
+[M::mem_pestat] mean and std.dev: (408.57, 73.77)
+[M::mem_pestat] low and high boundaries for proper pairs: (76, 748)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 13586 reads in 1.239 CPU sec, 0.225 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX3969.WHH1271.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX3969.WHH1271.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 0.364 sec; CPU: 1.284 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 397710 sequences (60000070 bp)...
+[M::process] read 397738 sequences (60000047 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 24, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (369, 394, 466)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (175, 660)
+[M::mem_pestat] mean and std.dev: (410.57, 49.66)
+[M::mem_pestat] low and high boundaries for proper pairs: (78, 757)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 397710 reads in 34.160 CPU sec, 10.785 real sec
+[M::process] read 397772 sequences (60000010 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 22, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (332, 456, 509)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 863)
+[M::mem_pestat] mean and std.dev: (420.27, 113.67)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1040)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 397738 reads in 33.617 CPU sec, 9.222 real sec
+[M::process] read 397872 sequences (60000243 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 19, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (398, 425, 456)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (282, 572)
+[M::mem_pestat] mean and std.dev: (426.06, 48.67)
+[M::mem_pestat] low and high boundaries for proper pairs: (224, 630)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 397772 reads in 29.937 CPU sec, 7.542 real sec
+[M::process] read 397826 sequences (60000139 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 31, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (332, 397, 455)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (86, 701)
+[M::mem_pestat] mean and std.dev: (386.57, 101.24)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 824)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 397872 reads in 35.172 CPU sec, 9.172 real sec
+[M::process] read 397768 sequences (60000219 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 31, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (320, 385, 467)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (26, 761)
+[M::mem_pestat] mean and std.dev: (374.81, 116.37)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 908)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 397826 reads in 33.204 CPU sec, 9.255 real sec
+[M::process] read 397760 sequences (60000024 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (218, 383, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 998)
+[M::mem_pestat] mean and std.dev: (351.83, 174.64)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1258)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 397768 reads in 35.063 CPU sec, 8.256 real sec
+[M::process] read 397782 sequences (60000153 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 24, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (349, 373, 505)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (37, 817)
+[M::mem_pestat] mean and std.dev: (410.48, 82.46)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 973)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 397760 reads in 35.455 CPU sec, 8.903 real sec
+[M::process] read 397836 sequences (60000204 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 24, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (328, 369, 460)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (64, 724)
+[M::mem_pestat] mean and std.dev: (397.40, 84.47)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 856)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 397782 reads in 36.844 CPU sec, 8.244 real sec
+[M::process] read 397866 sequences (60000223 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 23, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (293, 362, 390)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (99, 584)
+[M::mem_pestat] mean and std.dev: (357.84, 68.86)
+[M::mem_pestat] low and high boundaries for proper pairs: (2, 681)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 397836 reads in 32.070 CPU sec, 7.891 real sec
+[M::process] read 338792 sequences (51085001 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 31, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (351, 430, 484)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (85, 750)
+[M::mem_pestat] mean and std.dev: (439.32, 106.13)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 883)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 397866 reads in 36.542 CPU sec, 9.203 real sec
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 27, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (314, 405, 516)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 920)
+[M::mem_pestat] mean and std.dev: (406.67, 135.23)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1122)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 338792 reads in 30.041 CPU sec, 7.583 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/PRISM_topup.0416-0031.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/PRISM_topup.0416-0031.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 97.854 sec; CPU: 372.809 sec
+[bam_sort_core] merging from 1 files and 1 in-memory blocks...
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 16272 sequences (2428346 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 636, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (346, 396, 459)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (120, 685)
+[M::mem_pestat] mean and std.dev: (404.36, 87.44)
+[M::mem_pestat] low and high boundaries for proper pairs: (7, 798)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 16272 reads in 1.535 CPU sec, 0.523 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX4050.WHH1526.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX4050.WHH1526.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 0.732 sec; CPU: 1.580 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 12714 sequences (1896786 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 207, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (329, 372, 422)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (143, 608)
+[M::mem_pestat] mean and std.dev: (373.96, 72.46)
+[M::mem_pestat] low and high boundaries for proper pairs: (50, 701)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 12714 reads in 1.111 CPU sec, 0.407 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX4112.WHH1830.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX4112.WHH1830.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 0.568 sec; CPU: 1.145 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 398538 sequences (60000124 bp)...
+[M::process] read 398468 sequences (60000104 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 22, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (316, 383, 468)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (12, 772)
+[M::mem_pestat] mean and std.dev: (364.14, 135.19)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 924)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 398538 reads in 35.378 CPU sec, 8.555 real sec
+[M::process] read 398416 sequences (60000190 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 25, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (218, 409, 497)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 1055)
+[M::mem_pestat] mean and std.dev: (367.36, 158.29)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1334)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 398468 reads in 35.773 CPU sec, 7.523 real sec
+[M::process] read 398456 sequences (60000042 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 13, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (338, 380, 492)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (30, 800)
+[M::mem_pestat] mean and std.dev: (384.46, 171.83)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1072)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 398416 reads in 33.975 CPU sec, 8.417 real sec
+[M::process] read 398502 sequences (60000232 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 15, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (387, 429, 506)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (149, 744)
+[M::mem_pestat] mean and std.dev: (463.21, 87.39)
+[M::mem_pestat] low and high boundaries for proper pairs: (30, 863)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 398456 reads in 32.787 CPU sec, 8.624 real sec
+[M::process] read 109608 sequences (16497471 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 17, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (351, 400, 424)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (205, 570)
+[M::mem_pestat] mean and std.dev: (390.24, 75.73)
+[M::mem_pestat] low and high boundaries for proper pairs: (87, 693)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 398502 reads in 36.047 CPU sec, 8.236 real sec
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 10, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (332, 443, 468)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (60, 740)
+[M::mem_pestat] mean and std.dev: (407.44, 134.18)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 944)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 109608 reads in 9.237 CPU sec, 2.340 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/PRISM_topup.0915-0012.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/PRISM_topup.0915-0012.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 45.140 sec; CPU: 183.784 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 115178 sequences (17380614 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 202, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (256, 292, 328)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (112, 472)
+[M::mem_pestat] mean and std.dev: (294.38, 51.15)
+[M::mem_pestat] low and high boundaries for proper pairs: (40, 544)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 115178 reads in 10.228 CPU sec, 3.581 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX10610.WHB10715.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX10610.WHB10715.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 4.149 sec; CPU: 10.429 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 397556 sequences (59979561 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 195, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (268, 294, 342)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (120, 490)
+[M::mem_pestat] mean and std.dev: (299.01, 57.07)
+[M::mem_pestat] low and high boundaries for proper pairs: (46, 564)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 397556 reads in 31.583 CPU sec, 10.732 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX10637.WHB10779.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX10637.WHB10779.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 12.325 sec; CPU: 32.255 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 6966 sequences (1040528 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 154, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (270, 313, 361)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (88, 543)
+[M::mem_pestat] mean and std.dev: (314.97, 66.33)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 634)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 6966 reads in 0.662 CPU sec, 0.185 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX5298.WHH4910.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX5298.WHH4910.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 0.367 sec; CPU: 0.688 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 222232 sequences (33237872 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 91, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (365, 411, 456)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (183, 638)
+[M::mem_pestat] mean and std.dev: (406.09, 73.62)
+[M::mem_pestat] low and high boundaries for proper pairs: (92, 729)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 222232 reads in 19.754 CPU sec, 5.833 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX4212.WHH2325.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX4212.WHH2325.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 6.669 sec; CPU: 20.131 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 398094 sequences (60000286 bp)...
+[M::process] read 397890 sequences (60000019 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 95, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (246, 302, 341)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (56, 531)
+[M::mem_pestat] mean and std.dev: (292.52, 91.40)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 658)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 398094 reads in 35.321 CPU sec, 10.655 real sec
+[M::process] read 46902 sequences (7073785 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 83, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (245, 319, 367)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 611)
+[M::mem_pestat] mean and std.dev: (288.78, 117.04)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 757)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 397890 reads in 32.408 CPU sec, 8.509 real sec
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 18, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (284, 351, 361)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (130, 515)
+[M::mem_pestat] mean and std.dev: (335.76, 56.15)
+[M::mem_pestat] low and high boundaries for proper pairs: (53, 592)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 46902 reads in 4.018 CPU sec, 1.027 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX8257.WHB4868.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX8257.WHB4868.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 21.466 sec; CPU: 72.289 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 23414 sequences (3502092 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 98, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (334, 380, 440)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (122, 652)
+[M::mem_pestat] mean and std.dev: (380.26, 70.39)
+[M::mem_pestat] low and high boundaries for proper pairs: (16, 758)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 23414 reads in 1.975 CPU sec, 0.698 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX4095.WHH1706.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX4095.WHH1706.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 0.896 sec; CPU: 2.028 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 14140 sequences (2110516 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 777, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (345, 402, 468)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (99, 714)
+[M::mem_pestat] mean and std.dev: (407.33, 89.42)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 837)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 14140 reads in 1.298 CPU sec, 0.464 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX4127.WHH1876.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX4127.WHH1876.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 0.697 sec; CPU: 1.335 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 22198 sequences (3316319 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 476, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (320, 368, 430)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (100, 650)
+[M::mem_pestat] mean and std.dev: (376.05, 79.74)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 760)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 22198 reads in 1.945 CPU sec, 0.707 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX4127.WHH1890.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX4127.WHH1890.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 0.884 sec; CPU: 1.993 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 19012 sequences (2804865 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 149, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (174, 246, 317)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 603)
+[M::mem_pestat] mean and std.dev: (249.23, 105.30)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 746)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 19012 reads in 2.227 CPU sec, 0.731 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX4050.WHH1458.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX4050.WHH1458.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 0.902 sec; CPU: 2.265 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 7242 sequences (1090422 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 105, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (274, 307, 337)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (148, 463)
+[M::mem_pestat] mean and std.dev: (306.19, 53.52)
+[M::mem_pestat] low and high boundaries for proper pairs: (85, 526)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 7242 reads in 0.636 CPU sec, 0.244 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX9995.WHB6306.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX9995.WHB6306.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 0.420 sec; CPU: 0.660 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 255826 sequences (38587874 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 185, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (246, 299, 352)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (34, 564)
+[M::mem_pestat] mean and std.dev: (290.68, 88.94)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 670)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 255826 reads in 22.507 CPU sec, 6.404 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX8331.WHB5089.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX8331.WHB5089.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 7.470 sec; CPU: 22.926 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 295872 sequences (44637991 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 109, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (230, 289, 335)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (20, 545)
+[M::mem_pestat] mean and std.dev: (273.52, 91.29)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 650)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 295872 reads in 27.961 CPU sec, 7.089 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX10624.WHB10746.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX10624.WHB10746.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 8.190 sec; CPU: 28.458 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 19892 sequences (2972708 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 341, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (346, 402, 467)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (104, 709)
+[M::mem_pestat] mean and std.dev: (402.63, 88.24)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 830)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 19892 reads in 2.385 CPU sec, 0.463 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX3949.WHH1238.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX3949.WHH1238.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 0.643 sec; CPU: 2.450 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 56948 sequences (8575296 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 120, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (274, 320, 376)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (70, 580)
+[M::mem_pestat] mean and std.dev: (328.29, 77.01)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 682)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 56948 reads in 7.237 CPU sec, 1.354 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX10313.WHB6729.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX10313.WHB6729.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 1.608 sec; CPU: 7.371 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 398872 sequences (60000028 bp)...
+[M::process] read 258030 sequences (38808489 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 111, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (368, 409, 473)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (158, 683)
+[M::mem_pestat] mean and std.dev: (420.23, 80.59)
+[M::mem_pestat] low and high boundaries for proper pairs: (53, 788)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 398872 reads in 42.522 CPU sec, 8.228 real sec
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 57, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (315, 405, 469)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (7, 777)
+[M::mem_pestat] mean and std.dev: (394.85, 130.60)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 931)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 258030 reads in 26.944 CPU sec, 4.481 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/PRISM_topup.0915-0073.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/PRISM_topup.0915-0073.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 13.661 sec; CPU: 70.131 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 397684 sequences (60000055 bp)...
+[M::process] read 218050 sequences (32900386 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 73, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (218, 291, 332)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 560)
+[M::mem_pestat] mean and std.dev: (252.69, 115.90)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 716)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 397684 reads in 42.099 CPU sec, 8.262 real sec
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 43, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (286, 322, 356)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (146, 496)
+[M::mem_pestat] mean and std.dev: (326.98, 55.76)
+[M::mem_pestat] low and high boundaries for proper pairs: (76, 566)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 218050 reads in 23.286 CPU sec, 3.895 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX8309.WHB4965.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX8309.WHB4965.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 13.138 sec; CPU: 66.079 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 13604 sequences (2051024 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 546, 0, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (284, 323, 378)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (96, 566)
+[M::mem_pestat] mean and std.dev: (330.11, 65.97)
+[M::mem_pestat] low and high boundaries for proper pairs: (2, 660)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 13604 reads in 1.733 CPU sec, 0.307 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX9953.WHB6287.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX9953.WHB6287.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 0.444 sec; CPU: 1.782 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 26642 sequences (3978454 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 659, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (345, 405, 462)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (111, 696)
+[M::mem_pestat] mean and std.dev: (404.63, 88.92)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 813)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 26642 reads in 3.268 CPU sec, 0.572 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX3969.WHH1302.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX3969.WHH1302.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 0.754 sec; CPU: 3.340 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 398354 sequences (60000056 bp)...
+[M::process] read 398356 sequences (60000274 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 49, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (388, 417, 496)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (172, 712)
+[M::mem_pestat] mean and std.dev: (434.98, 93.94)
+[M::mem_pestat] low and high boundaries for proper pairs: (59, 820)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 398354 reads in 48.111 CPU sec, 9.349 real sec
+[M::process] read 129160 sequences (19450954 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 40, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (380, 435, 497)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (146, 731)
+[M::mem_pestat] mean and std.dev: (441.32, 85.33)
+[M::mem_pestat] low and high boundaries for proper pairs: (29, 848)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 398356 reads in 47.016 CPU sec, 7.821 real sec
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 15, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (436, 457, 486)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (336, 586)
+[M::mem_pestat] mean and std.dev: (445.45, 37.17)
+[M::mem_pestat] low and high boundaries for proper pairs: (286, 636)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 129160 reads in 12.153 CPU sec, 1.996 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/PRISM_topup.1015-0023.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/PRISM_topup.1015-0023.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 20.097 sec; CPU: 107.919 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 14872 sequences (2215330 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 116, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (291, 344, 400)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (73, 618)
+[M::mem_pestat] mean and std.dev: (342.73, 82.83)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 727)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 14872 reads in 1.710 CPU sec, 0.330 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX3936.WHH1088.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX3936.WHH1088.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 0.487 sec; CPU: 1.763 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 28536 sequences (4264367 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 175, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (286, 344, 393)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (72, 607)
+[M::mem_pestat] mean and std.dev: (339.12, 88.22)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 714)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 28536 reads in 3.288 CPU sec, 0.609 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX4095.WHH1646.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX4095.WHH1646.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 0.786 sec; CPU: 3.377 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 126560 sequences (19083940 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 1031, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (281, 316, 360)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (123, 518)
+[M::mem_pestat] mean and std.dev: (320.65, 63.21)
+[M::mem_pestat] low and high boundaries for proper pairs: (44, 597)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 126560 reads in 15.295 CPU sec, 2.737 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX9967.WHB7729.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX9967.WHB7729.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 3.165 sec; CPU: 15.557 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 15614 sequences (2350611 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 148, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (262, 311, 348)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (90, 520)
+[M::mem_pestat] mean and std.dev: (307.66, 60.37)
+[M::mem_pestat] low and high boundaries for proper pairs: (4, 606)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 15614 reads in 1.993 CPU sec, 0.353 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX9951.WHB6252.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX9951.WHB6252.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 0.507 sec; CPU: 2.049 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 398552 sequences (60000123 bp)...
+[M::process] read 398492 sequences (60000082 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 37, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (341, 414, 478)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (67, 752)
+[M::mem_pestat] mean and std.dev: (423.54, 105.15)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 889)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 398552 reads in 44.806 CPU sec, 8.479 real sec
+[M::process] read 267554 sequences (40277428 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 49, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (359, 438, 516)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (45, 830)
+[M::mem_pestat] mean and std.dev: (429.14, 134.92)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 987)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 398492 reads in 43.802 CPU sec, 7.255 real sec
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 31, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (270, 369, 435)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 765)
+[M::mem_pestat] mean and std.dev: (338.06, 143.30)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 930)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 267554 reads in 25.482 CPU sec, 4.260 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/PRISM_topup.0915-0011.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/PRISM_topup.0915-0011.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 20.976 sec; CPU: 114.810 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 151708 sequences (22895319 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 89, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (230, 287, 327)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (36, 521)
+[M::mem_pestat] mean and std.dev: (280.22, 75.52)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 618)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 151708 reads in 18.937 CPU sec, 3.558 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX10569.WHB7973.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX10569.WHB7973.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 4.085 sec; CPU: 19.244 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 41776 sequences (6290483 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 141, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (316, 352, 426)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (96, 646)
+[M::mem_pestat] mean and std.dev: (363.98, 83.95)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 756)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 41776 reads in 5.723 CPU sec, 1.090 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX9186.WHB4429.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX9186.WHB4429.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 1.549 sec; CPU: 5.836 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 18800 sequences (2802052 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 77, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (244, 279, 313)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (106, 451)
+[M::mem_pestat] mean and std.dev: (275.21, 56.48)
+[M::mem_pestat] low and high boundaries for proper pairs: (37, 520)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 18800 reads in 2.622 CPU sec, 0.478 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX5324.WHH4864.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX5324.WHH4864.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 0.638 sec; CPU: 2.689 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 398232 sequences (60000264 bp)...
+[M::process] read 398246 sequences (60000255 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 58, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (374, 437, 496)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (130, 740)
+[M::mem_pestat] mean and std.dev: (438.28, 90.54)
+[M::mem_pestat] low and high boundaries for proper pairs: (8, 862)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 398232 reads in 45.808 CPU sec, 8.709 real sec
+[M::process] read 101314 sequences (15261787 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 60, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (371, 424, 514)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (85, 800)
+[M::mem_pestat] mean and std.dev: (438.62, 119.33)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 943)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 398246 reads in 48.349 CPU sec, 8.058 real sec
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 18, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (306, 402, 466)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 786)
+[M::mem_pestat] mean and std.dev: (393.94, 115.56)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 946)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 101314 reads in 10.509 CPU sec, 1.748 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/PRISM_topup.1015-0025.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/PRISM_topup.1015-0025.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 19.411 sec; CPU: 105.295 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 13246 sequences (1978553 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 176, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (345, 412, 479)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (77, 747)
+[M::mem_pestat] mean and std.dev: (409.49, 95.79)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 881)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 13246 reads in 1.632 CPU sec, 0.304 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX3529.WHH990.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX3529.WHH990.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 0.464 sec; CPU: 1.690 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 53856 sequences (8105254 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 99, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (262, 308, 358)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (70, 550)
+[M::mem_pestat] mean and std.dev: (311.61, 60.50)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 646)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 53856 reads in 5.534 CPU sec, 1.054 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX9055.WHB4112.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX9055.WHB4112.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 1.319 sec; CPU: 5.660 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 23400 sequences (3498635 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 243, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (281, 315, 364)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (115, 530)
+[M::mem_pestat] mean and std.dev: (324.43, 65.54)
+[M::mem_pestat] low and high boundaries for proper pairs: (32, 613)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 23400 reads in 2.884 CPU sec, 0.542 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX5304.WHH4848.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX5304.WHH4848.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 0.729 sec; CPU: 2.959 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 11166 sequences (1666240 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 113, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (344, 400, 468)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (96, 716)
+[M::mem_pestat] mean and std.dev: (398.05, 85.68)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 840)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 11166 reads in 1.321 CPU sec, 0.237 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX4111.WHH1745.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX4111.WHH1745.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 0.368 sec; CPU: 1.358 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 57406 sequences (8649698 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 178, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (271, 309, 365)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (83, 553)
+[M::mem_pestat] mean and std.dev: (313.68, 67.18)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 647)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 57406 reads in 6.055 CPU sec, 1.188 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX9027.WHB3949.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX9027.WHB3949.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 1.425 sec; CPU: 6.180 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 22794 sequences (3403917 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 123, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (326, 379, 451)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (76, 701)
+[M::mem_pestat] mean and std.dev: (389.78, 94.34)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 826)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 22794 reads in 2.223 CPU sec, 0.447 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX4068.WHH1629.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX4068.WHH1629.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 0.612 sec; CPU: 2.296 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 85724 sequences (12916560 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 130, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (291, 343, 398)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (77, 612)
+[M::mem_pestat] mean and std.dev: (345.25, 68.73)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 719)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 85724 reads in 11.223 CPU sec, 2.091 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 6 /home/projects/14001280/PROJECTS/blood_microbiome/database/moraxella_osloensis/GCF_001553955.1_ASM155395v1_genomic.fna /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX9028.WHB3948.unmapped-both-read-and-mate.1.trimmed.filtered.low_complexity.decontaminated.fastq /scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq/MUX9028.WHB3948.unmapped-both-read-and-mate.2.trimmed.filtered.low_complexity.decontaminated.fastq
+[main] Real time: 2.407 sec; CPU: 11.411 sec
