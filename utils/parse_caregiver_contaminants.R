@@ -16,13 +16,18 @@ controls <- controls$LibraryID
 species_df <- species_df %>% 
   select(all_of(c("taxa", controls))) %>%
   mutate(taxa = gsub("\\[|\\]", "", taxa)) %>%
-  mutate(taxa = gsub("_", " ", taxa))
+  mutate(taxa = gsub("_", " ", taxa)) %>%
+  as_tibble()
 
-row_sums <- apply(species_df[, 2:ncol(species_df)], 1, sum)
+RA_df <- apply(species_df[, 2:ncol(species_df)], 2, function(x) {return(x / sum(x))})
+RA_df <- as.data.frame(RA_df)
+rownames(RA_df) <- species_df$taxa
 
-contam <- species_df %>% 
-  filter(row_sums > 0, !grepl("unclassified", taxa)) %>%
-  select(taxa)
+RA_df[RA_df <= 0.001] <- 0
+RA_df[RA_df > 0.001] <- 1
 
-fwrite(contam, "caregiver_parsed_negative.txt")
+row_sums <- rowSums(RA_df)
+contam <- names(row_sums)[row_sums > 0]
+
+fwrite(tibble(taxa = contam), "caregiver_parsed_negative.txt")
 

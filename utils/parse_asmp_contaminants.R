@@ -30,11 +30,11 @@ for (batch in batches) {
 merged_df[is.na(merged_df)] <- 0
 
 # Get row sums
-row_sums <- apply(merged_df[, 2:ncol(merged_df)], 1, sum)
+merged_df <- merged_df %>% column_to_rownames("taxa")
+merged_df[merged_df <= 0.001] <- 0
+merged_df[merged_df > 0.001] <- 1
 
-# Filter taxa that have no reads
-contam <- merged_df %>% 
-  filter(row_sums > 0, !grepl("unclassified", taxa)) %>%
-  select(taxa)
+row_sums <- rowSums(merged_df)
+contam <- names(row_sums)[row_sums > 0]
 
-fwrite(contam, "asmp_parsed_negative.txt")
+fwrite(tibble(taxa = contam), "asmp_parsed_negative.txt")
