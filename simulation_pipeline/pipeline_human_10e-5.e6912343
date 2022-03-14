@@ -1,0 +1,93 @@
+mkdir: cannot create directory `/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out': File exists
+mkdir: cannot create directory `/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/01_bam': File exists
+mkdir: cannot create directory `/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/01_files/': File exists
+mkdir: cannot create directory `/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/02_files/': File exists
+mkdir: cannot create directory `/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/03_files/': File exists
+mkdir: cannot create directory `/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/04_files/': File exists
+mkdir: cannot create directory `/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/05_files/': File exists
+mkdir: cannot create directory `/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/06_reports/': File exists
+mkdir: cannot create directory `/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/06_unclassified_fastq/': File exists
+mkdir: cannot create directory `/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/07_abundance_matrix/': File exists
+186684562 reads; of these:
+  186684562 (100.00%) were paired; of these:
+    155885266 (83.50%) aligned concordantly 0 times
+    3549300 (1.90%) aligned concordantly exactly 1 time
+    27249996 (14.60%) aligned concordantly >1 times
+    ----
+    155885266 pairs aligned concordantly 0 times; of these:
+      8598512 (5.52%) aligned discordantly 1 time
+    ----
+    147286754 pairs aligned 0 times concordantly or discordantly; of these:
+      294573508 mates make up the pairs; of these:
+        9711447 (3.30%) aligned 0 times
+        4286734 (1.46%) aligned exactly 1 time
+        280575327 (95.25%) aligned >1 times
+97.40% overall alignment rate
+[bam_sort_core] merging from 3 files and 1 in-memory blocks...
+java -Djava.library.path=/home/users/astar/gis/tancsc/miniconda3/envs/metameta/opt/bbmap-38.18/jni/ -ea -Xmx20408m -Xms20408m -cp /home/users/astar/gis/tancsc/miniconda3/envs/metameta/opt/bbmap-38.18/current/ jgi.BBDukF threads=24 in1=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/02_files/simulated.human_10e-5.unmapped-both-read-and-mate.no_Ns.1.fastq in2=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/02_files/simulated.human_10e-5.unmapped-both-read-and-mate.no_Ns.2.fastq out1=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/03_files/simulated.human_10e-5.unmapped-both-read-and-mate.no_Ns.trimmed.1.fastq out2=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/03_files/simulated.human_10e-5.unmapped-both-read-and-mate.no_Ns.trimmed.2.fastq qtrim=rl trimq=10 overwrite=t
+Executing jgi.BBDukF [threads=24, in1=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/02_files/simulated.human_10e-5.unmapped-both-read-and-mate.no_Ns.1.fastq, in2=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/02_files/simulated.human_10e-5.unmapped-both-read-and-mate.no_Ns.2.fastq, out1=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/03_files/simulated.human_10e-5.unmapped-both-read-and-mate.no_Ns.trimmed.1.fastq, out2=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/03_files/simulated.human_10e-5.unmapped-both-read-and-mate.no_Ns.trimmed.2.fastq, qtrim=rl, trimq=10, overwrite=t]
+Version 38.18
+
+Set threads to 24
+0.075 seconds.
+Initial:
+Memory: max=20508m, total=20508m, free=19866m, used=642m
+
+Input is being processed as paired
+Started output streams:	0.138 seconds.
+Processing time:   		0.171 seconds.
+
+Input:                  	9156 reads 		1166111 bases.
+QTrimmed:               	956 reads (10.44%) 	14610 bases (1.25%)
+Total Removed:          	322 reads (3.52%) 	26977 bases (2.31%)
+Result:                 	8834 reads (96.48%) 	1139134 bases (97.69%)
+
+Time:                         	0.310 seconds.
+Reads Processed:        9156 	29.52k reads/sec
+Bases Processed:       1166k 	3.76m bases/sec
+java -Djava.library.path=/home/users/astar/gis/tancsc/miniconda3/envs/metameta/opt/bbmap-38.18/jni/ -ea -Xmx20409m -Xms20409m -cp /home/users/astar/gis/tancsc/miniconda3/envs/metameta/opt/bbmap-38.18/current/ jgi.BBDukF threads=24 in1=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/03_files/simulated.human_10e-5.unmapped-both-read-and-mate.no_Ns.trimmed.1.fastq in2=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/03_files/simulated.human_10e-5.unmapped-both-read-and-mate.no_Ns.trimmed.2.fastq out1=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/04_files/simulated.human_10e-5.unmapped-both-read-and-mate.no_Ns.trimmed.filtered.1.fastq out2=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/04_files/simulated.human_10e-5.unmapped-both-read-and-mate.no_Ns.trimmed.filtered.2.fastq maq=10 overwrite=t
+Executing jgi.BBDukF [threads=24, in1=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/03_files/simulated.human_10e-5.unmapped-both-read-and-mate.no_Ns.trimmed.1.fastq, in2=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/03_files/simulated.human_10e-5.unmapped-both-read-and-mate.no_Ns.trimmed.2.fastq, out1=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/04_files/simulated.human_10e-5.unmapped-both-read-and-mate.no_Ns.trimmed.filtered.1.fastq, out2=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/04_files/simulated.human_10e-5.unmapped-both-read-and-mate.no_Ns.trimmed.filtered.2.fastq, maq=10, overwrite=t]
+Version 38.18
+
+Set threads to 24
+0.057 seconds.
+Initial:
+Memory: max=20510m, total=20510m, free=19975m, used=535m
+
+Input is being processed as paired
+Started output streams:	0.103 seconds.
+Processing time:   		0.144 seconds.
+
+Input:                  	8834 reads 		1139134 bases.
+Low quality discards:   	0 reads (0.00%) 	0 bases (0.00%)
+Total Removed:          	0 reads (0.00%) 	0 bases (0.00%)
+Result:                 	8834 reads (100.00%) 	1139134 bases (100.00%)
+
+Time:                         	0.250 seconds.
+Reads Processed:        8834 	35.36k reads/sec
+Bases Processed:       1139k 	4.56m bases/sec
+java -Djava.library.path=/home/users/astar/gis/tancsc/miniconda3/envs/metameta/opt/bbmap-38.18/jni/ -ea -Xmx20408m -Xms20408m -cp /home/users/astar/gis/tancsc/miniconda3/envs/metameta/opt/bbmap-38.18/current/ jgi.BBDukF in1=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/04_files/simulated.human_10e-5.unmapped-both-read-and-mate.no_Ns.trimmed.filtered.1.fastq in2=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/04_files/simulated.human_10e-5.unmapped-both-read-and-mate.no_Ns.trimmed.filtered.2.fastq out1=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/05_files/simulated.human_10e-5.unmapped-both-read-and-mate.no_Ns.trimmed.filtered.high_complexity.1.fastq out2=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/05_files/simulated.human_10e-5.unmapped-both-read-and-mate.no_Ns.trimmed.filtered.high_complexity.2.fastq threads=24 entropy=0.6 entropywindow=50 entropyk=5 overwrite=t
+Executing jgi.BBDukF [in1=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/04_files/simulated.human_10e-5.unmapped-both-read-and-mate.no_Ns.trimmed.filtered.1.fastq, in2=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/04_files/simulated.human_10e-5.unmapped-both-read-and-mate.no_Ns.trimmed.filtered.2.fastq, out1=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/05_files/simulated.human_10e-5.unmapped-both-read-and-mate.no_Ns.trimmed.filtered.high_complexity.1.fastq, out2=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out/05_files/simulated.human_10e-5.unmapped-both-read-and-mate.no_Ns.trimmed.filtered.high_complexity.2.fastq, threads=24, entropy=0.6, entropywindow=50, entropyk=5, overwrite=t]
+Version 38.18
+
+Set threads to 24
+0.055 seconds.
+Initial:
+Memory: max=20508m, total=20508m, free=19866m, used=642m
+
+Input is being processed as paired
+Started output streams:	0.101 seconds.
+Processing time:   		0.219 seconds.
+
+Input:                  	8834 reads 		1139134 bases.
+Low entropy discards:   	902 reads (10.21%) 	50885 bases (4.47%)
+Total Removed:          	902 reads (10.21%) 	50885 bases (4.47%)
+Result:                 	7932 reads (89.79%) 	1088249 bases (95.53%)
+
+Time:                         	0.322 seconds.
+Reads Processed:        8834 	27.41k reads/sec
+Bases Processed:       1139k 	3.53m bases/sec
+Loading database information... done.
+3966 sequences (1.09 Mbp) processed in 0.138s (1719.6 Kseq/m, 471.84 Mbp/m).
+  3954 sequences classified (99.70%)
+  12 sequences unclassified (0.30%)

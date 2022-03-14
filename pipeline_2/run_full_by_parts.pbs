@@ -1,10 +1,10 @@
 #!/bin/bash
 #PBS -q normal
-#PBS -l select=1:ncpus=24:mem=48G
-#PBS -l walltime=90:00:00
+#PBS -l select=1:ncpus=24:mem=60G
+#PBS -l walltime=75:00:00
 #PBS -P personal-tancsc
-#PBS -N part_09
-n=09
+#PBS -N rerun_with_kraken_part_08
+n=08
 
 ## Extract unmapped read and mates from CRAM files ##
 # Input: CRAM file
@@ -13,8 +13,8 @@ n=09
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate metameta
 
-WKDIR=/scratch/users/astar/gis/tancsc/blood_microbiome_files
-SCRIPTS=/home/projects/14001280/PROJECTS/blood_microbiome/pipeline
+WKDIR=/scratch/users/astar/gis/tancsc/blood_microbiome_files_2
+SCRIPTS=/home/projects/14001280/PROJECTS/blood_microbiome/pipeline_2
 N_THREADS=24
 
 # Create directories 
@@ -28,25 +28,24 @@ do
         SAMPLE=$(echo $line | awk '{split($0, a, ","); print a[3]}')
 
 	echo $COHORT $MUX $SAMPLE
-        
-	# Step 1: Extract unmapped read and mates from CRAM files
-        sh ${SCRIPTS}/01_extract_unmapped_reads_and_mates.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS
-        
-        # Step 2: Trim 5' and 3' ends of reads below Qxx quality and Ns
-        sh ${SCRIPTS}/02_trim.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS
-        
-        # Step 3: Filter reads below Qxx
-        sh ${SCRIPTS}/03_filter.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS
-        
-        # Step 4: Remove low complexity reads
-        sh ${SCRIPTS}/04_remove_low_complexity.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS
-        
-        # Step 5: Host decontamination
-        sh ${SCRIPTS}/05_host_decontamination.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS
-        
-        # Step 6: Kraken2 classification
-        sh ${SCRIPTS}/06_kraken2_assignment.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS
+        # Step 1: Extract unmapped read and mates from CRAM files
+        sh ${SCRIPTS}/extract_unmapped_reads_and_mates.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 1
 
+        # Step 2: Remove reads with only Ns
+        sh ${SCRIPTS}/remove_Ns.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 2
+
+        # Step 3: Quality trimming
+        sh ${SCRIPTS}/quality_trim.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 3
+
+        # Step 4: Quality filtering
+        sh ${SCRIPTS}/quality_filter.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 4
+
+        # Step 5: Remove low complexity reads
+        sh ${SCRIPTS}/remove_low_complexity.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 5
+
+        # Step 6: Kraken2 classification
+        sh ${SCRIPTS}/kraken2_assignment.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 6
+        
 done < /home/projects/14001280/PROJECTS/blood_microbiome/data/file_lists/n9970_list_part_${n}.csv
 
 echo -------SCRIPT COMPLETE------- 

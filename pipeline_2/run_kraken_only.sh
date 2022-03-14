@@ -16,13 +16,14 @@ N_THREADS=24
 TMPDIR=/home/projects/14001280/PROJECTS/blood_microbiome/data/kraken2_classification_temp_output/temp_out.txt
 
 #DB=/home/projects/14001280/PROJECTS/blood_microbiome/database/minikraken2_v2_8GB_201904_UPDATE
-DB=/home/projects/14001280/software/genomeDB/misc/softwareDB/kraken2/standard-20190108
+#DB=/home/projects/14001280/software/genomeDB/misc/softwareDB/kraken2/standard-20190108
+DB=/home/projects/14001280/PROJECTS/blood_microbiome/database/k2_pluspf_20210517
 
-for input1 in ${WKDIR}/01_fastq/*.1.fastq
+for input1 in ${WKDIR}/05_fastq/*.1.fastq
 do
 	input2=$(echo ${input1}| sed "s|\.1\.fastq|.2.fastq|g")
-	output1=$(echo ${input1}| sed "s|\.1\.fastq|.tsv|g"| sed "s|01_fastq|kraken_raw|g")
-	output2=$(echo ${input1}| sed "s|\.1\.fastq|.unclassified.#.fastq|g"| sed "s|01_fastq|kraken_raw_unclassified|g")
+	output1=$(echo ${input1}| sed "s|\.1\.fastq|.tsv|g"| sed "s|05_fastq|kraken_plusPF|g")
+	output2=$(echo ${input1}| sed "s|\.1\.fastq|.unclassified.#.fastq|g"| sed "s|05_fastq|kraken_plusPF_unclassified|g")
 	echo $input1
 	echo $input2
 	echo $output1

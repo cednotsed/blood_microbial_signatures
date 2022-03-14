@@ -1,9 +1,9 @@
 #!/bin/bash
 #PBS -q normal
-#PBS -l select=1:ncpus=8:mem=32G
-#PBS -l walltime=00:20:00
+#PBS -l select=1:ncpus=24:mem=96G
+#PBS -l walltime=20:00:00
 #PBS -P 14001280
-#PBS -N pipeline_10e-3
+#PBS -N pipeline_human_10e-6
 ## Extract unmapped read and mates from CRAM files ##
 # Input: CRAM file
 # Output: fastq file containing read and mates
@@ -12,7 +12,7 @@ source ~/miniconda3/etc/profile.d/conda.sh
 
 WKDIR=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out
 SCRIPTS=/home/projects/14001280/PROJECTS/blood_microbiome/simulation_pipeline
-N_THREADS=8
+N_THREADS=24
 
 # Create directories 
 mkdir ${WKDIR}
@@ -20,14 +20,16 @@ mkdir ${WKDIR}/01_bam ${WKDIR}/01_files/ ${WKDIR}/02_files/ ${WKDIR}/03_files/ $
 
 COHORT=lol
 MUX=simulated
-SAMPLE=10e-3
+SAMPLE=human_10e-6
 
 # Align to human reference
 conda activate base
 data=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_references
 
-bowtie2 -x ${data}/human/ref -1 ${data}/simulated_reads/simulated.${SAMPLE}.1.fastq \
-    -2 ${data}/simulated_reads/simulated.${SAMPLE}.2.fastq | samtools view -C -T ${data}/human/GRCh38_latest_genomic.fna > ${data}/simulated_reads/simulated.${SAMPLE}.cram
+bowtie2 -x ${data}/human/ref \
+	-p ${N_THREADS} \
+	-1 ${data}/simulated_reads/simulated.${SAMPLE}.1.fastq \
+	-2 ${data}/simulated_reads/simulated.${SAMPLE}.2.fastq | samtools view -C -T ${data}/human/GRCh38_latest_genomic.fna > ${data}/simulated_reads/simulated.${SAMPLE}.cram
 
 ## Run pipeline ######################################
 conda activate metameta
@@ -51,5 +53,5 @@ sh ${SCRIPTS}/remove_low_complexity.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 5
 sh ${SCRIPTS}/kraken2_assignment.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 6
 	
 ## Step 7: Parse Kraken2 reports
-#sh ${SCRIPTS}/parse_kraken2_report.sh $WKDIR $SCRIPTS 7
+sh ${SCRIPTS}/parse_kraken2_report.sh $WKDIR $SCRIPTS 7
 echo -------SCRIPT COMPLETE------- 

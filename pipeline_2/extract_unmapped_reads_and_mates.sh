@@ -24,7 +24,7 @@ samtools view -@ $N_THREADS -u -f12 -F256 ${input} \
 
 # Convert BAM to fastq
 # Query sort BAM file
-samtools sort -n -o ${sorted_bam} ${output1}
+samtools sort -@ $N_THREADS -n -o ${sorted_bam} ${output1}
 
 # Sorted BAM --> fastq
 bedtools bamtofastq -i ${sorted_bam} -fq ${output2} -fq2 ${output3}
