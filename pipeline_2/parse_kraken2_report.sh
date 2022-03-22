@@ -9,24 +9,25 @@
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate base
 
-#SCRIPTS=/home/projects/14001280/PROJECTS/blood_microbiome/pipeline_2
-#n_subset=9999
-#WKDIR=/scratch/users/astar/gis/tancsc/blood_microbiome_files
+SCRIPTS=/home/projects/14001280/PROJECTS/blood_microbiome/pipeline_2
+#WKDIR=/home/projects/14001280/PROJECTS/blood_microbiome/results/simulation_out
+WKDIR=/scratch/users/astar/gis/tancsc/blood_microbiome_files_2
+STEP=7
+PREVIOUS_STEP=6
 
-n_subset=$1
-WKDIR=$2
-SCRIPTS=$3
-STEP=$4
-PREVIOUS_STEP=$(($STEP - 1))
+#WKDIR=$2
+#SCRIPTS=$3
+#STEP=$4
+#PREVIOUS_STEP=$(($STEP - 1))
 
 input_dir=${WKDIR}/0${PREVIOUS_STEP}_reports
 output_dir=${WKDIR}/0${STEP}_abundance_matrix
 rank='S'
-prefix=abundance_matrix.subset_${n_subset}
+prefix=abundance_matrix
 delim='.'
 
 
-python ${SCRIPTS}/04_parse_kraken2_report.py \
+python ${SCRIPTS}/parse_kraken2_report.py \
 	--i ${input_dir} \
 	--o ${output_dir} \
 	--rank $rank \

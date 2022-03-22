@@ -1,13 +1,13 @@
 #!/bin/bash
 #PBS -q normal
 #PBS -l select=1:ncpus=8:mem=20G
-#PBS -l walltime=03:00:00
+#PBS -l walltime=10:00:00
 #PBS -P 14001280
-#PBS -N irep_test_run
+#PBS -N irep_n150
 
 n_threads=8
 base_dir=/home/projects/14001280/PROJECTS/blood_microbiome
-fastq_dir=/scratch/users/astar/gis/tancsc/blood_microbiome_files/05_fastq
+fastq_dir=/scratch/users/astar/gis/tancsc/blood_microbiome_files_2/05_fastq
 ref_dir=${base_dir}/data/irep_data/genome_references
 result_dir=/home/projects/14001280/PROJECTS/blood_microbiome/results/irep_analysis/raw_output
 
@@ -24,7 +24,7 @@ do
 	mkdir ${result_dir}/sam_files/$result_subdir
 
         # Index reference
-#        bowtie2-build ${ref_path} ${ref_index_dir}
+        bowtie2-build ${ref_path} ${ref_index_dir}
 	
 	while read fastq_name
 	do
@@ -38,7 +38,7 @@ do
 		# Mapping
 		bowtie2 -x ${ref_index_dir} -1 ${fastq_1} -2 ${fastq_2} -S ${map_out} --reorder -p $n_threads
 		
-	done < $base_dir/data/irep_data/test.txt
+	done < $base_dir/data/irep_data/sample_lists/samples_for_coverage_analysis.n150.txt
 	
 	# Run iRep on SAM files
 	bPTR -f ${ref_path} -s ${result_dir}/sam_files/$result_subdir/*.sam -o ${table_path} -plot ${pdf_path} -m coverage -ff -t $n_threads

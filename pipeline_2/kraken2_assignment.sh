@@ -17,8 +17,8 @@ PREVIOUS_STEP=$(($STEP - 1))
 
 DB=/home/projects/14001280/PROJECTS/blood_microbiome/database/k2_pluspf_20210517
 
-input1=${WKDIR}/0${PREVIOUS_STEP}_files/${MUX}.${SAMPLE}.*.1.fastq
-input2=${WKDIR}/0${PREVIOUS_STEP}_files/${MUX}.${SAMPLE}.*.2.fastq
+input1=${WKDIR}/0${PREVIOUS_STEP}_fastq/${MUX}.${SAMPLE}.*.1.fastq
+input2=${WKDIR}/0${PREVIOUS_STEP}_fastq/${MUX}.${SAMPLE}.*.2.fastq
 input1=$(eval ls $input1)
 input2=$(eval ls $input2)
 

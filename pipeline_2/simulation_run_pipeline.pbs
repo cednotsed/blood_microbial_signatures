@@ -1,26 +1,26 @@
 #!/bin/bash
 #PBS -q normal
 #PBS -l select=1:ncpus=24:mem=96G
-#PBS -l walltime=20:00:00
+#PBS -l walltime=06:00:00
 #PBS -P 14001280
-#PBS -N pipeline_human_10e-6
+#PBS -N sim_pipe_10e-3
 ## Extract unmapped read and mates from CRAM files ##
 # Input: CRAM file
 # Output: fastq file containing read and mates
 
 source ~/miniconda3/etc/profile.d/conda.sh
 
-WKDIR=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_out
-SCRIPTS=/home/projects/14001280/PROJECTS/blood_microbiome/simulation_pipeline
+WKDIR=/home/projects/14001280/PROJECTS/blood_microbiome/results/simulation_out
+SCRIPTS=/home/projects/14001280/PROJECTS/blood_microbiome/pipeline_2
 N_THREADS=24
 
 # Create directories 
 mkdir ${WKDIR}
-mkdir ${WKDIR}/01_bam ${WKDIR}/01_files/ ${WKDIR}/02_files/ ${WKDIR}/03_files/ ${WKDIR}/04_files/ ${WKDIR}/05_files/ ${WKDIR}/06_reports/ ${WKDIR}/06_unclassified_fastq/ ${WKDIR}/07_abundance_matrix/
+mkdir ${WKDIR}/01_bam ${WKDIR}/01_fastq/ ${WKDIR}/02_fastq/ ${WKDIR}/03_fastq/ ${WKDIR}/04_fastq/ ${WKDIR}/05_fastq/ ${WKDIR}/06_reports/ ${WKDIR}/06_unclassified_fastq/ ${WKDIR}/07_abundance_matrix/
 
 COHORT=lol
 MUX=simulated
-SAMPLE=human_10e-6
+SAMPLE=human_10e-3_microbe
 
 # Align to human reference
 conda activate base
@@ -35,7 +35,7 @@ bowtie2 -x ${data}/human/ref \
 conda activate metameta
 
 # Step 1: Extract unmapped read and mates from CRAM files
-sh ${SCRIPTS}/extract_unmapped_reads_and_mates.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 1
+sh ${SCRIPTS}/simulation_extract_unmapped_reads_and_mates.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 1
 	
 # Step 2: Remove reads with only Ns
 sh ${SCRIPTS}/remove_Ns.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 2

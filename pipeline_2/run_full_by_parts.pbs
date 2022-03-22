@@ -1,10 +1,10 @@
 #!/bin/bash
 #PBS -q normal
 #PBS -l select=1:ncpus=24:mem=60G
-#PBS -l walltime=75:00:00
+#PBS -l walltime=90:00:00
 #PBS -P personal-tancsc
-#PBS -N rerun_with_kraken_part_08
-n=08
+#PBS -N rerun_08
+n=topup
 
 ## Extract unmapped read and mates from CRAM files ##
 # Input: CRAM file
@@ -29,7 +29,7 @@ do
 
 	echo $COHORT $MUX $SAMPLE
         # Step 1: Extract unmapped read and mates from CRAM files
-        sh ${SCRIPTS}/extract_unmapped_reads_and_mates.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 1
+        #sh ${SCRIPTS}/extract_unmapped_reads_and_mates.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 1
 
         # Step 2: Remove reads with only Ns
         sh ${SCRIPTS}/remove_Ns.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 2

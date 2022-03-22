@@ -13,13 +13,13 @@ STEP=$6
 
 PREVIOUS_STEP=$(($STEP - 1))
 
-input1=${WKDIR}/0${PREVIOUS_STEP}_files/${MUX}.${SAMPLE}.*.1.fastq
-input2=${WKDIR}/0${PREVIOUS_STEP}_files/${MUX}.${SAMPLE}.*.2.fastq
+input1=${WKDIR}/0${PREVIOUS_STEP}_fastq/${MUX}.${SAMPLE}.*.1.fastq
+input2=${WKDIR}/0${PREVIOUS_STEP}_fastq/${MUX}.${SAMPLE}.*.2.fastq
 input1=$(eval ls $input1)
 input2=$(eval ls $input2)
 
-output1=$(echo ${input1}| sed "s|.1.fastq|.no_Ns.1.fastq|g"| sed "s|0${PREVIOUS_STEP}_|0${STEP}_|g")
-output2=$(echo ${input2}| sed "s|.2.fastq|.no_Ns.2.fastq|g"| sed "s|0${PREVIOUS_STEP}_|0${STEP}_|g")
+output1=$(echo ${input1}| sed "s|\.1\.fastq|\.no_Ns\.1\.fastq|g"| sed "s|0${PREVIOUS_STEP}_|0${STEP}_|g")
+output2=$(echo ${input2}| sed "s|\.2\.fastq|\.no_Ns\.2\.fastq|g"| sed "s|0${PREVIOUS_STEP}_|0${STEP}_|g")
 echo ${input1}
 echo ${input2}
 echo ${output1}

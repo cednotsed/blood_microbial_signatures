@@ -14,8 +14,8 @@ input=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_referenc
 #input=/data/13000026/shared/13000026_${COHORT}/rpd-sg10k-grch38-gatk4-gvcf-freebayes-vcf/${MUX}/${SAMPLE}/${SAMPLE}.bqsr.cram
 output1=${WKDIR}/01_bam/${MUX}.${SAMPLE}.unmapped-both-read-and-mate.bam
 sorted_bam=${WKDIR}/01_bam/${MUX}.${SAMPLE}.unmapped-both-read-and-mate.qsort.bam
-output2=${WKDIR}/01_files/${MUX}.${SAMPLE}.unmapped-both-read-and-mate.1.fastq
-output3=${WKDIR}/01_files/${MUX}.${SAMPLE}.unmapped-both-read-and-mate.2.fastq
+output2=${WKDIR}/01_fastq/${MUX}.${SAMPLE}.unmapped-both-read-and-mate.1.fastq
+output3=${WKDIR}/01_fastq/${MUX}.${SAMPLE}.unmapped-both-read-and-mate.2.fastq
 start=`date +%s`
 
 # Extract unmapped reads from CRAM --> BAM
