@@ -1,22 +1,21 @@
 #Mapping
-ref_name=Bacillus_cereus_NZ_CP072774.1.fasta
-fastq_name=WHH5104
-
-ref_name=Bacillus_cereus_NZ_CP072774.1.fasta
+ref_name=Bacillus_cereus_NZ_CM000714.1.fasta
 fastq_name=WHB534
 
-ref_name=Bacillus_cereus_NZ_CP072774.1.fasta
+ref_name=Bacillus_cereus_NZ_CM000714.1.fasta
 fastq_name=WHH5150
 
-ref_name=Human_mastadenovirus_C_NC_001405.1.fasta
-fastq_name=WHB6121
+#ref_name=Bacillus_cereus_NZ_CM000714.1.fasta
+#fastq_name=WHH5104
+#ref_name=Human_mastadenovirus_C_NC_001405.1.fasta
+#fastq_name=WHB6121
 
-ref_name=Cutibacterium_acnes_NC_021085.1.fasta
-fastq_name=WHB8433
+#ref_name=Cutibacterium_acnes_NC_021085.1.fasta
+#fastq_name=WHB8433
 
-ref_name=Cutibacterium_acnes_NC_021085.1.fasta
-fastq_name=WHB8505
-fastq_name=0816-0079
+#ref_name=Cutibacterium_acnes_NC_021085.1.fasta
+#fastq_name=WHB8505
+#fastq_name=0816-0079
 #ref_name=Gardnerella_vaginalis_NZ_PKJK01000001.1.fasta
 #fastq_name=WHB9812
 
@@ -50,8 +49,8 @@ fastq_name=0816-0079
 #ref_name=Staphylococcus_epidermidis_NZ_CP035288.1.fasta
 #fastq_name=WHB6459
 
-ref_name=Staphylococcus_epidermidis_NZ_CP035288.1.fasta
-fastq_name=WHB4219
+#ref_name=Staphylococcus_epidermidis_NZ_CP035288.1.fasta
+#fastq_name=WHB4219
 
 #ref_name=Lactobacillus_crispatus_NZ_CP039266.1.fasta
 #fastq_name=WHB10710
@@ -115,7 +114,7 @@ table_path=${result_dir}/$(echo ${fastq_name}_${ref_name} | sed 's/.fasta/.tsv/g
 pdf_path=${result_dir}/$(echo ${fastq_name}_${ref_name} | sed 's/.fasta/.pdf/g')
 
 # Indexing
-bowtie2-build ${ref_path} ${ref_index_dir}
+#bowtie2-build ${ref_path} ${ref_index_dir}
 
 # Mapping
 bowtie2 -x ${ref_index_dir} -1 ${fastq_1} -2 ${fastq_2} -S ${map_out} --reorder -p 8
