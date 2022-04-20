@@ -13,8 +13,8 @@ do
 	ref_prefix=$(echo $sample_list|sed "s|${sample_dir}||g"| sed "s|/||g"| sed "s|.txt||g")
 	ref_path=$(ls ${ref_dir}/$ref_prefix.fasta)
 	ref_index_dir=$(echo $ref_dir/$ref_prefix)
-	table_path=${result_dir}/irep_out2/bPTR_$ref_prefix.tsv
-	pdf_path=${result_dir}/irep_out2/bPTR_$ref_prefix.pdf
+	table_path=${result_dir}/irep_out/bPTR_$ref_prefix.tsv
+	pdf_path=${result_dir}/irep_out/bPTR_$ref_prefix.pdf
 
 	echo $sample_list
 	echo $ref_prefix
@@ -32,7 +32,7 @@ do
 		fastq_2=$(ls ${fastq_dir}/*.${fastq_name}.*.2.*)
 
 		# Parse file paths
-		map_out=${result_dir}/sam_files/$result_subdir/$(echo ${fastq_name}_${ref_prefix} | sed 's/.fasta/.sam/g')
+		map_out=${result_dir}/sam_files/$ref_prefix/${fastq_name}_${ref_prefix}.sam
 
 		echo $map_out
 		echo $fastq_1
@@ -43,5 +43,5 @@ do
 	done < ${sample_list}
 
 	# Run iRep on SAM files
-	bPTR -f ${ref_path} -s ${result_dir}/sam_files/$result_subdir/*.sam -o ${table_path} -plot ${pdf_path} -m coverage -ff -t $n_threads
+	bPTR -f ${ref_path} -s ${result_dir}/sam_files/$ref_prefix/*.sam -o ${table_path} -plot ${pdf_path} -m coverage -ff -t $n_threads
 done
