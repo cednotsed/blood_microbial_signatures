@@ -1,0 +1,187 @@
+---
+output: html_document
+---
+
+```{r setup, include = FALSE, warning = FALSE, message = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = "C:/Users/Cedric/Desktop/git_repos/blood_microbiome")
+```
+
+```{r, echo = F}
+getwd()
+```
+``` {r, echo = F, include = FALSE}
+require(tidyverse)
+require(data.table)
+require(foreach)
+require(reactable)
+require(htmltools)
+require(htmlwidgets)
+require(IRdisplay)
+require(repr)
+require(webshot2)
+
+patho_meta <- fread("data/kraken2_taxonomy/plusPF_20210517_species_meta.csv") %>%
+    select(-n_map_taxon) %>%
+    mutate(taxa = gsub("\\[|\\]", "", taxa))
+
+prev_max_filt <- fread("results/decontamination/global_decontamination_stats.csv")
+path_prev_max_filt <- prev_max_filt %>%
+    left_join(patho_meta) %>%
+    arrange(desc(max_count))
+
+bact <- path_prev_max_filt %>% filter(org_group == "Bacteria")
+virus <- path_prev_max_filt %>% filter(org_group == "Viruses")
+fungi <- path_prev_max_filt %>% filter(org_group == "Fungi")
+others <- path_prev_max_filt %>% filter(org_group == "Other Eukaryotes")
+
+# Irep and coverage breadth
+cov_df <- fread("results/irep_analysis/coverage_irep_results.parsed.csv")
+
+oral <- c("Fusobacterium nucleatum", "Neisseria subflava", "Haemophilus parainfluenzae",
+"Fusobacterium pseudoperiodonticum", "Prevotella melaninogenica")
+
+lungs <- c("Neisseria subflava", "Neisseria mucosa", "Neisseria flavescens", "Human mastadenovirus C")
+
+genitals <- c("Fannyhessea vaginae", "Lactobacillus crispatus")
+
+skin <- c("Staphylococcus haemolyticus", "Cutibacterium acnes", "Staphylococcus cohnii",
+"Corynebacterium segmentosum", "Staphylococcus epidermidis", "Malassezia restricta")
+
+environment <- c("Paracoccus yeei", "Microbacterium sp. PM5", "Microbacterium sp. Nx66",
+"Acinetobacter baumannii", "Cupriavidus metallidurans", 
+"Rickettsia sp. Tillamook 23", "Aspergillus oryzae")
+
+blood <- c("Human betaherpesvirus 6A", "Human betaherpesvirus 6B", "Hepatitis B virus", 
+"Torque teno virus 6")
+
+final <- bind_rows(bact %>% head(20), virus, fungi) %>%
+    left_join(cov_df) %>%
+    mutate(max_bPTR = ifelse(org_group == "Bacteria", max_bPTR, NA),
+           emia = ifelse(taxa %in% c("Corynebacterium segmentosum", "Microbacterium sp. PM5", "Microbacterium sp. Nx66",
+                                          "Lactobacillus crispatus", "Fusobacterium pseudoperiodonticum", "Rickettsia sp. Tillamook 23",
+                                          "Malassezia restricta"), F, T),
+           origin = case_when(taxa %in% oral ~ "Mouth", 
+                              taxa %in% lungs ~ "Respiratory tract",
+                              taxa %in% genitals ~ "Genitals",
+                              taxa %in% skin ~ "Skin",
+                              taxa %in% environment ~ "Environment",
+                              taxa %in% blood ~ "Blood"))
+
+# final
+fwrite(final, str_glue("results/parsed_taxa_results.n{nrow(final)}.csv"))
+
+# Parse for table rendering
+parsed <- final %>%
+    mutate(overall_prevalence = round(overall_prevalence * 100, 2),
+           max_perc_covered1 = round(max_perc_covered1, 1),
+           max_bPTR = round(max_bPTR, 2)) %>%
+    mutate(status = case_when(is.na(max_bPTR) & org_group == "Bacteria" ~ "Unknown", 
+                              max_bPTR > 1 ~ "Replicating",
+                              org_group != "Bacteria" ~ "NA")) %>%
+    select(-ORI, -TER, -max_bin, 
+           -starts_with("mean"), -starts_with("min"), -org_group,
+          -n_samples, -max_count) %>%
+  select(taxa, origin, emia, overall_prevalence, max_perc_covered1, max_bPTR, status)
+
+```
+
+``` {css, include = F}
+.tag {
+  border-radius: 50%;
+  font-size: 13px;
+}
+```
+
+``` {r table, echo=FALSE} 
+# render functions
+orange_pal <- function(x) rgb(colorRamp(c("white", "darkolivegreen2"))(x), 
+                              maxColorValue = 255)
+green_pal <- function(x) scales::colour_ramp(c("white", "darkolivegreen2"), 
+                                             na.color = "white")(x)
+red_green_pal <- function(x) scales::colour_ramp(c("white", "darkolivegreen2"), 
+                                                 na.color = "white")(x)
+    
+status_badge <- function(color = "#aaa", width = "12px", height = width) {
+    span(style = list(
+        display = "inline-block",
+        marginRight = "8px",
+        width = width,
+        height = height,
+        backgroundColor = color,
+        borderRadius = "50%"
+    ))
+}
+
+parsed %>%
+  reactable(compact = T,
+            borderless = F,
+            pagination = F,
+            width = 1100,
+            columns = list(taxa = colDef(name = "Species",
+                                         align = "left"),
+                           origin = colDef(name = "Origin",
+                                           align = "center",
+                                           cell = function(value, index) {
+                                if (parsed$taxa[index] %in% oral) {
+                                  color <- "#0099CC"
+                                } else if (parsed$taxa[index] %in% lungs) {
+                                  color <- "#FF99CC"
+                                } else if (parsed$taxa[index] %in% genitals) {
+                                  color <- "#C77CFF"
+                                } else if (parsed$taxa[index] %in% skin) {
+                                  color <- "wheat"
+                                } else if (parsed$taxa[index] %in% environment) {
+                                  color <- "lightgrey"
+                                } else if (parsed$taxa[index] %in% blood) {
+                                  color <- "indianred"
+                                }
+                           div(class = "tag", 
+                                style = list(background = color), 
+                                value)
+                           }),
+                           overall_prevalence = colDef(name = "Overall prevalence (%)",
+                                                       align = "center",
+                                                       style = function(value) {
+                                                          normalized <- (value - min(parsed$overall_prevalence)) / (max(parsed$overall_prevalence) - min(parsed$overall_prevalence))
+                                                       color <- orange_pal(normalized)
+                                                       list(background = color)
+                                                       }),
+                           max_bPTR = colDef(name = "Max. PTR",
+                                         align = "center",
+                                                       style = function(value) {
+                                                         normalised <- (value - min(parsed$max_bPTR, na.rm = T)) / 
+                                                           (max(parsed$max_bPTR, na.rm = T) - min(parsed$max_bPTR, na.rm = T))
+                                                         color <- green_pal(normalised)
+                                                         list(background = color)
+                                                       }),
+                           max_perc_covered1 = colDef(name = "Max. coverage (%)",
+                                         align = "left",
+                                                       style = function(value) {
+                                                         normalised <- (value - min(parsed$max_perc_covered1, na.rm = T)) / 
+                                                           (max(parsed$max_perc_covered1, na.rm = T) - min(parsed$max_perc_covered1, na.rm = T))
+                                                         color <- red_green_pal(normalised)
+                                                         list(background = color)
+                                                       }),                           
+                           status = colDef(name = "Status",
+                                           align = "left",
+                                           cell = function(value) {
+                             color <- switch(
+                               value,
+                               Replicating = "hsl(120, 45%, 50%)",
+                               Unknown = "hsl(3, 69%, 50%)",
+                               "NA" = "hsl(0, 0%, 50%)"
+                             )
+                             badge <- status_badge(color = color)
+                             tagList(badge, value)
+                           }),
+                           emia = colDef(name = "Reported in blood",
+                                         align = "center",
+                                         cell = function(value) {
+                                             # Render as an X mark or check mark
+                                             if (value) "\u2714\ufe0f" else "\u274c"
+                                         })
+            )
+  )
+```
+
