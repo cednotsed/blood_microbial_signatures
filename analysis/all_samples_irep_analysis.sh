@@ -1,9 +1,9 @@
 #!/bin/bash
 #PBS -q normal
-#PBS -l select=1:ncpus=8:mem=32G
-#PBS -l walltime=02:00:00
+#PBS -l select=1:ncpus=16:mem=64G
+#PBS -l walltime=20:00:00
 #PBS -P 14001280
-#PBS -N irep_n150_index_only
+#PBS -N irep_n150_long
 
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate base
