@@ -39,7 +39,7 @@ for (fasta_name in fasta_files) {
         select(all_of(c("npm_research_id", taxon))) %>%
         filter(get(taxon) != 0) %>%
         arrange(desc(get(taxon))) %>%
-        head(10) %>%
+        head(5) %>%
         select(npm_research_id)
       
       save_name <- gsub(".fasta", "", fasta_name)
