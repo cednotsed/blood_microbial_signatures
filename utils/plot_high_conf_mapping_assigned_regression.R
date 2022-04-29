@@ -74,3 +74,11 @@ parsed %>%
   filter(!grepl("cohnii|oryzae|haemolyticus", taxa)) %>%
   summarise(range = range(max_perc_covered1))
 
+df %>% 
+  filter(grepl("haemolyticus", species)) %>%
+  arrange(desc(pairs_assigned))
+
+parsed %>% 
+  filter(!grepl("cohnii|oryzae|haemolyticus|Achromo|Alcaligene|Pseudo", taxa)) %>%
+  summarise(sum10 = sum(max_perc_covered1 > 10), sum50 = sum(max_perc_covered1 > 50))
+

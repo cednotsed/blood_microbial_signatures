@@ -1,6 +1,6 @@
 fastq_dir=../data/irep_data/libraries
 id=0416-0024
-ref_prefix=Staphylococcus_haemolyticus_plasmid_pSH108
+ref_prefix=Staphylococcus_haemolyticus_JCSC1435_GCA_000009865.1
 ref_dir=../data/irep_data/genome_references_individual
 ref_path=$(ls ${ref_dir}/$ref_prefix.fasta)
 ref_index_dir=$(echo $ref_dir/$ref_prefix)

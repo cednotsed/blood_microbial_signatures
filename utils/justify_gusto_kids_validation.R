@@ -9,7 +9,7 @@ df <- fread("results/irep_analysis/coverage_irep_results.raw.csv") %>%
   # filter(!is.na(bPTR)) %>%
   filter(!grepl("virus", prefix)) %>%
   left_join(meta) %>%
-  # filter(site_supplying_sample == "HELIOS") %>%
+  filter(site_supplying_sample == "HELIOS") %>%
   select(npm_research_id, site_supplying_sample, supplied_gender, genus, species, perc_covered1, perc_covered5, bPTR)
 
 df_parsed <- fread("results/irep_analysis/coverage_irep_results.parsed.csv")
