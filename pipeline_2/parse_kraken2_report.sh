@@ -7,11 +7,12 @@
 
 # Parse Kraken2 reports
 source ~/miniconda3/etc/profile.d/conda.sh
-conda activate base
+conda activate metagenomics
 
 SCRIPTS=/home/projects/14001280/PROJECTS/blood_microbiome/pipeline_2
+#WKDIR=/scratch/users/astar/gis/tancsc/blood_microbiome_files_2
 #WKDIR=/home/projects/14001280/PROJECTS/blood_microbiome/results/simulation_out
-WKDIR=/scratch/users/astar/gis/tancsc/blood_microbiome_files_2
+WKDIR=/home/projects/14001280/PROJECTS/blood_microbiome/data/poore_et_al/pipeline_2_output
 STEP=7
 PREVIOUS_STEP=6
 
@@ -26,6 +27,7 @@ rank='S'
 prefix=abundance_matrix
 delim='.'
 
+mkdir $output_dir
 
 python ${SCRIPTS}/parse_kraken2_report.py \
 	--i ${input_dir} \

@@ -1,6 +1,6 @@
 # Kraken2 taxonomic classification of reads
 source ~/miniconda3/etc/profile.d/conda.sh
-conda activate base
+conda activate metagenomics
 
 COHORT=$1
 MUX=$2

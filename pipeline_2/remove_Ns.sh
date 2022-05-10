@@ -2,7 +2,7 @@
 # Trim off 5' and 3' bases < 15
 # Trim 5' and 3' Ns
 source ~/miniconda3/etc/profile.d/conda.sh
-conda activate metameta
+conda activate metagenomics
 
 COHORT=$1
 MUX=$2

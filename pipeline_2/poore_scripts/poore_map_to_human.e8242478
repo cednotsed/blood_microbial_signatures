@@ -1,0 +1,1746 @@
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+114704 reads; of these:
+  114704 (100.00%) were paired; of these:
+    114494 (99.82%) aligned concordantly 0 times
+    175 (0.15%) aligned concordantly exactly 1 time
+    35 (0.03%) aligned concordantly >1 times
+    ----
+    114494 pairs aligned concordantly 0 times; of these:
+      37 (0.03%) aligned discordantly 1 time
+    ----
+    114457 pairs aligned 0 times concordantly or discordantly; of these:
+      228914 mates make up the pairs; of these:
+        228844 (99.97%) aligned 0 times
+        38 (0.02%) aligned exactly 1 time
+        32 (0.01%) aligned >1 times
+0.25% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+33380 reads; of these:
+  33380 (100.00%) were paired; of these:
+    33150 (99.31%) aligned concordantly 0 times
+    188 (0.56%) aligned concordantly exactly 1 time
+    42 (0.13%) aligned concordantly >1 times
+    ----
+    33150 pairs aligned concordantly 0 times; of these:
+      70 (0.21%) aligned discordantly 1 time
+    ----
+    33080 pairs aligned 0 times concordantly or discordantly; of these:
+      66160 mates make up the pairs; of these:
+        66071 (99.87%) aligned 0 times
+        42 (0.06%) aligned exactly 1 time
+        47 (0.07%) aligned >1 times
+1.03% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+93666 reads; of these:
+  93666 (100.00%) were paired; of these:
+    93384 (99.70%) aligned concordantly 0 times
+    246 (0.26%) aligned concordantly exactly 1 time
+    36 (0.04%) aligned concordantly >1 times
+    ----
+    93384 pairs aligned concordantly 0 times; of these:
+      48 (0.05%) aligned discordantly 1 time
+    ----
+    93336 pairs aligned 0 times concordantly or discordantly; of these:
+      186672 mates make up the pairs; of these:
+        186600 (99.96%) aligned 0 times
+        39 (0.02%) aligned exactly 1 time
+        33 (0.02%) aligned >1 times
+0.39% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+50135 reads; of these:
+  50135 (100.00%) were paired; of these:
+    50022 (99.77%) aligned concordantly 0 times
+    92 (0.18%) aligned concordantly exactly 1 time
+    21 (0.04%) aligned concordantly >1 times
+    ----
+    50022 pairs aligned concordantly 0 times; of these:
+      52 (0.10%) aligned discordantly 1 time
+    ----
+    49970 pairs aligned 0 times concordantly or discordantly; of these:
+      99940 mates make up the pairs; of these:
+        99890 (99.95%) aligned 0 times
+        29 (0.03%) aligned exactly 1 time
+        21 (0.02%) aligned >1 times
+0.38% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+183260 reads; of these:
+  183260 (100.00%) were paired; of these:
+    179377 (97.88%) aligned concordantly 0 times
+    3290 (1.80%) aligned concordantly exactly 1 time
+    593 (0.32%) aligned concordantly >1 times
+    ----
+    179377 pairs aligned concordantly 0 times; of these:
+      731 (0.41%) aligned discordantly 1 time
+    ----
+    178646 pairs aligned 0 times concordantly or discordantly; of these:
+      357292 mates make up the pairs; of these:
+        356052 (99.65%) aligned 0 times
+        707 (0.20%) aligned exactly 1 time
+        533 (0.15%) aligned >1 times
+2.86% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+62656 reads; of these:
+  62656 (100.00%) were paired; of these:
+    62092 (99.10%) aligned concordantly 0 times
+    468 (0.75%) aligned concordantly exactly 1 time
+    96 (0.15%) aligned concordantly >1 times
+    ----
+    62092 pairs aligned concordantly 0 times; of these:
+      89 (0.14%) aligned discordantly 1 time
+    ----
+    62003 pairs aligned 0 times concordantly or discordantly; of these:
+      124006 mates make up the pairs; of these:
+        123871 (99.89%) aligned 0 times
+        70 (0.06%) aligned exactly 1 time
+        65 (0.05%) aligned >1 times
+1.15% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+15495 reads; of these:
+  15495 (100.00%) were paired; of these:
+    15438 (99.63%) aligned concordantly 0 times
+    42 (0.27%) aligned concordantly exactly 1 time
+    15 (0.10%) aligned concordantly >1 times
+    ----
+    15438 pairs aligned concordantly 0 times; of these:
+      27 (0.17%) aligned discordantly 1 time
+    ----
+    15411 pairs aligned 0 times concordantly or discordantly; of these:
+      30822 mates make up the pairs; of these:
+        30788 (99.89%) aligned 0 times
+        20 (0.06%) aligned exactly 1 time
+        14 (0.05%) aligned >1 times
+0.65% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+46064 reads; of these:
+  46064 (100.00%) were paired; of these:
+    46007 (99.88%) aligned concordantly 0 times
+    53 (0.12%) aligned concordantly exactly 1 time
+    4 (0.01%) aligned concordantly >1 times
+    ----
+    46007 pairs aligned concordantly 0 times; of these:
+      21 (0.05%) aligned discordantly 1 time
+    ----
+    45986 pairs aligned 0 times concordantly or discordantly; of these:
+      91972 mates make up the pairs; of these:
+        91951 (99.98%) aligned 0 times
+        6 (0.01%) aligned exactly 1 time
+        15 (0.02%) aligned >1 times
+0.19% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+23553 reads; of these:
+  23553 (100.00%) were paired; of these:
+    23462 (99.61%) aligned concordantly 0 times
+    75 (0.32%) aligned concordantly exactly 1 time
+    16 (0.07%) aligned concordantly >1 times
+    ----
+    23462 pairs aligned concordantly 0 times; of these:
+      27 (0.12%) aligned discordantly 1 time
+    ----
+    23435 pairs aligned 0 times concordantly or discordantly; of these:
+      46870 mates make up the pairs; of these:
+        46837 (99.93%) aligned 0 times
+        13 (0.03%) aligned exactly 1 time
+        20 (0.04%) aligned >1 times
+0.57% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+18895 reads; of these:
+  18895 (100.00%) were paired; of these:
+    18846 (99.74%) aligned concordantly 0 times
+    44 (0.23%) aligned concordantly exactly 1 time
+    5 (0.03%) aligned concordantly >1 times
+    ----
+    18846 pairs aligned concordantly 0 times; of these:
+      22 (0.12%) aligned discordantly 1 time
+    ----
+    18824 pairs aligned 0 times concordantly or discordantly; of these:
+      37648 mates make up the pairs; of these:
+        37609 (99.90%) aligned 0 times
+        18 (0.05%) aligned exactly 1 time
+        21 (0.06%) aligned >1 times
+0.48% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+210540 reads; of these:
+  210540 (100.00%) were paired; of these:
+    209969 (99.73%) aligned concordantly 0 times
+    489 (0.23%) aligned concordantly exactly 1 time
+    82 (0.04%) aligned concordantly >1 times
+    ----
+    209969 pairs aligned concordantly 0 times; of these:
+      120 (0.06%) aligned discordantly 1 time
+    ----
+    209849 pairs aligned 0 times concordantly or discordantly; of these:
+      419698 mates make up the pairs; of these:
+        419525 (99.96%) aligned 0 times
+        90 (0.02%) aligned exactly 1 time
+        83 (0.02%) aligned >1 times
+0.37% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+86349 reads; of these:
+  86349 (100.00%) were paired; of these:
+    85603 (99.14%) aligned concordantly 0 times
+    645 (0.75%) aligned concordantly exactly 1 time
+    101 (0.12%) aligned concordantly >1 times
+    ----
+    85603 pairs aligned concordantly 0 times; of these:
+      112 (0.13%) aligned discordantly 1 time
+    ----
+    85491 pairs aligned 0 times concordantly or discordantly; of these:
+      170982 mates make up the pairs; of these:
+        170860 (99.93%) aligned 0 times
+        55 (0.03%) aligned exactly 1 time
+        67 (0.04%) aligned >1 times
+1.06% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+125445 reads; of these:
+  125445 (100.00%) were paired; of these:
+    124788 (99.48%) aligned concordantly 0 times
+    580 (0.46%) aligned concordantly exactly 1 time
+    77 (0.06%) aligned concordantly >1 times
+    ----
+    124788 pairs aligned concordantly 0 times; of these:
+      141 (0.11%) aligned discordantly 1 time
+    ----
+    124647 pairs aligned 0 times concordantly or discordantly; of these:
+      249294 mates make up the pairs; of these:
+        249105 (99.92%) aligned 0 times
+        109 (0.04%) aligned exactly 1 time
+        80 (0.03%) aligned >1 times
+0.71% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+50598 reads; of these:
+  50598 (100.00%) were paired; of these:
+    50400 (99.61%) aligned concordantly 0 times
+    172 (0.34%) aligned concordantly exactly 1 time
+    26 (0.05%) aligned concordantly >1 times
+    ----
+    50400 pairs aligned concordantly 0 times; of these:
+      67 (0.13%) aligned discordantly 1 time
+    ----
+    50333 pairs aligned 0 times concordantly or discordantly; of these:
+      100666 mates make up the pairs; of these:
+        100613 (99.95%) aligned 0 times
+        36 (0.04%) aligned exactly 1 time
+        17 (0.02%) aligned >1 times
+0.58% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+31591 reads; of these:
+  31591 (100.00%) were paired; of these:
+    31485 (99.66%) aligned concordantly 0 times
+    97 (0.31%) aligned concordantly exactly 1 time
+    9 (0.03%) aligned concordantly >1 times
+    ----
+    31485 pairs aligned concordantly 0 times; of these:
+      40 (0.13%) aligned discordantly 1 time
+    ----
+    31445 pairs aligned 0 times concordantly or discordantly; of these:
+      62890 mates make up the pairs; of these:
+        62843 (99.93%) aligned 0 times
+        19 (0.03%) aligned exactly 1 time
+        28 (0.04%) aligned >1 times
+0.54% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+39507 reads; of these:
+  39507 (100.00%) were paired; of these:
+    39380 (99.68%) aligned concordantly 0 times
+    104 (0.26%) aligned concordantly exactly 1 time
+    23 (0.06%) aligned concordantly >1 times
+    ----
+    39380 pairs aligned concordantly 0 times; of these:
+      18 (0.05%) aligned discordantly 1 time
+    ----
+    39362 pairs aligned 0 times concordantly or discordantly; of these:
+      78724 mates make up the pairs; of these:
+        78664 (99.92%) aligned 0 times
+        34 (0.04%) aligned exactly 1 time
+        26 (0.03%) aligned >1 times
+0.44% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+38032 reads; of these:
+  38032 (100.00%) were paired; of these:
+    37970 (99.84%) aligned concordantly 0 times
+    47 (0.12%) aligned concordantly exactly 1 time
+    15 (0.04%) aligned concordantly >1 times
+    ----
+    37970 pairs aligned concordantly 0 times; of these:
+      20 (0.05%) aligned discordantly 1 time
+    ----
+    37950 pairs aligned 0 times concordantly or discordantly; of these:
+      75900 mates make up the pairs; of these:
+        75885 (99.98%) aligned 0 times
+        9 (0.01%) aligned exactly 1 time
+        6 (0.01%) aligned >1 times
+0.24% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+28223 reads; of these:
+  28223 (100.00%) were paired; of these:
+    28101 (99.57%) aligned concordantly 0 times
+    100 (0.35%) aligned concordantly exactly 1 time
+    22 (0.08%) aligned concordantly >1 times
+    ----
+    28101 pairs aligned concordantly 0 times; of these:
+      36 (0.13%) aligned discordantly 1 time
+    ----
+    28065 pairs aligned 0 times concordantly or discordantly; of these:
+      56130 mates make up the pairs; of these:
+        56048 (99.85%) aligned 0 times
+        34 (0.06%) aligned exactly 1 time
+        48 (0.09%) aligned >1 times
+0.71% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+53190 reads; of these:
+  53190 (100.00%) were paired; of these:
+    52786 (99.24%) aligned concordantly 0 times
+    348 (0.65%) aligned concordantly exactly 1 time
+    56 (0.11%) aligned concordantly >1 times
+    ----
+    52786 pairs aligned concordantly 0 times; of these:
+      152 (0.29%) aligned discordantly 1 time
+    ----
+    52634 pairs aligned 0 times concordantly or discordantly; of these:
+      105268 mates make up the pairs; of these:
+        105114 (99.85%) aligned 0 times
+        86 (0.08%) aligned exactly 1 time
+        68 (0.06%) aligned >1 times
+1.19% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+149609 reads; of these:
+  149609 (100.00%) were paired; of these:
+    149337 (99.82%) aligned concordantly 0 times
+    244 (0.16%) aligned concordantly exactly 1 time
+    28 (0.02%) aligned concordantly >1 times
+    ----
+    149337 pairs aligned concordantly 0 times; of these:
+      48 (0.03%) aligned discordantly 1 time
+    ----
+    149289 pairs aligned 0 times concordantly or discordantly; of these:
+      298578 mates make up the pairs; of these:
+        298526 (99.98%) aligned 0 times
+        28 (0.01%) aligned exactly 1 time
+        24 (0.01%) aligned >1 times
+0.23% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+121432 reads; of these:
+  121432 (100.00%) were paired; of these:
+    120617 (99.33%) aligned concordantly 0 times
+    668 (0.55%) aligned concordantly exactly 1 time
+    147 (0.12%) aligned concordantly >1 times
+    ----
+    120617 pairs aligned concordantly 0 times; of these:
+      135 (0.11%) aligned discordantly 1 time
+    ----
+    120482 pairs aligned 0 times concordantly or discordantly; of these:
+      240964 mates make up the pairs; of these:
+        240766 (99.92%) aligned 0 times
+        99 (0.04%) aligned exactly 1 time
+        99 (0.04%) aligned >1 times
+0.86% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+42988 reads; of these:
+  42988 (100.00%) were paired; of these:
+    42897 (99.79%) aligned concordantly 0 times
+    74 (0.17%) aligned concordantly exactly 1 time
+    17 (0.04%) aligned concordantly >1 times
+    ----
+    42897 pairs aligned concordantly 0 times; of these:
+      54 (0.13%) aligned discordantly 1 time
+    ----
+    42843 pairs aligned 0 times concordantly or discordantly; of these:
+      85686 mates make up the pairs; of these:
+        85631 (99.94%) aligned 0 times
+        29 (0.03%) aligned exactly 1 time
+        26 (0.03%) aligned >1 times
+0.40% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+46752 reads; of these:
+  46752 (100.00%) were paired; of these:
+    46628 (99.73%) aligned concordantly 0 times
+    106 (0.23%) aligned concordantly exactly 1 time
+    18 (0.04%) aligned concordantly >1 times
+    ----
+    46628 pairs aligned concordantly 0 times; of these:
+      34 (0.07%) aligned discordantly 1 time
+    ----
+    46594 pairs aligned 0 times concordantly or discordantly; of these:
+      93188 mates make up the pairs; of these:
+        93138 (99.95%) aligned 0 times
+        27 (0.03%) aligned exactly 1 time
+        23 (0.02%) aligned >1 times
+0.39% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+48558 reads; of these:
+  48558 (100.00%) were paired; of these:
+    48482 (99.84%) aligned concordantly 0 times
+    71 (0.15%) aligned concordantly exactly 1 time
+    5 (0.01%) aligned concordantly >1 times
+    ----
+    48482 pairs aligned concordantly 0 times; of these:
+      28 (0.06%) aligned discordantly 1 time
+    ----
+    48454 pairs aligned 0 times concordantly or discordantly; of these:
+      96908 mates make up the pairs; of these:
+        96887 (99.98%) aligned 0 times
+        14 (0.01%) aligned exactly 1 time
+        7 (0.01%) aligned >1 times
+0.24% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+125240 reads; of these:
+  125240 (100.00%) were paired; of these:
+    125138 (99.92%) aligned concordantly 0 times
+    85 (0.07%) aligned concordantly exactly 1 time
+    17 (0.01%) aligned concordantly >1 times
+    ----
+    125138 pairs aligned concordantly 0 times; of these:
+      14 (0.01%) aligned discordantly 1 time
+    ----
+    125124 pairs aligned 0 times concordantly or discordantly; of these:
+      250248 mates make up the pairs; of these:
+        250219 (99.99%) aligned 0 times
+        19 (0.01%) aligned exactly 1 time
+        10 (0.00%) aligned >1 times
+0.10% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+140023 reads; of these:
+  140023 (100.00%) were paired; of these:
+    139340 (99.51%) aligned concordantly 0 times
+    595 (0.42%) aligned concordantly exactly 1 time
+    88 (0.06%) aligned concordantly >1 times
+    ----
+    139340 pairs aligned concordantly 0 times; of these:
+      159 (0.11%) aligned discordantly 1 time
+    ----
+    139181 pairs aligned 0 times concordantly or discordantly; of these:
+      278362 mates make up the pairs; of these:
+        278178 (99.93%) aligned 0 times
+        111 (0.04%) aligned exactly 1 time
+        73 (0.03%) aligned >1 times
+0.67% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+120405 reads; of these:
+  120405 (100.00%) were paired; of these:
+    119889 (99.57%) aligned concordantly 0 times
+    419 (0.35%) aligned concordantly exactly 1 time
+    97 (0.08%) aligned concordantly >1 times
+    ----
+    119889 pairs aligned concordantly 0 times; of these:
+      144 (0.12%) aligned discordantly 1 time
+    ----
+    119745 pairs aligned 0 times concordantly or discordantly; of these:
+      239490 mates make up the pairs; of these:
+        239352 (99.94%) aligned 0 times
+        84 (0.04%) aligned exactly 1 time
+        54 (0.02%) aligned >1 times
+0.61% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+69754 reads; of these:
+  69754 (100.00%) were paired; of these:
+    69612 (99.80%) aligned concordantly 0 times
+    115 (0.16%) aligned concordantly exactly 1 time
+    27 (0.04%) aligned concordantly >1 times
+    ----
+    69612 pairs aligned concordantly 0 times; of these:
+      36 (0.05%) aligned discordantly 1 time
+    ----
+    69576 pairs aligned 0 times concordantly or discordantly; of these:
+      139152 mates make up the pairs; of these:
+        139097 (99.96%) aligned 0 times
+        30 (0.02%) aligned exactly 1 time
+        25 (0.02%) aligned >1 times
+0.29% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+21628 reads; of these:
+  21628 (100.00%) were paired; of these:
+    21526 (99.53%) aligned concordantly 0 times
+    86 (0.40%) aligned concordantly exactly 1 time
+    16 (0.07%) aligned concordantly >1 times
+    ----
+    21526 pairs aligned concordantly 0 times; of these:
+      31 (0.14%) aligned discordantly 1 time
+    ----
+    21495 pairs aligned 0 times concordantly or discordantly; of these:
+      42990 mates make up the pairs; of these:
+        42943 (99.89%) aligned 0 times
+        23 (0.05%) aligned exactly 1 time
+        24 (0.06%) aligned >1 times
+0.72% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+125593 reads; of these:
+  125593 (100.00%) were paired; of these:
+    123731 (98.52%) aligned concordantly 0 times
+    1523 (1.21%) aligned concordantly exactly 1 time
+    339 (0.27%) aligned concordantly >1 times
+    ----
+    123731 pairs aligned concordantly 0 times; of these:
+      1249 (1.01%) aligned discordantly 1 time
+    ----
+    122482 pairs aligned 0 times concordantly or discordantly; of these:
+      244964 mates make up the pairs; of these:
+        243746 (99.50%) aligned 0 times
+        602 (0.25%) aligned exactly 1 time
+        616 (0.25%) aligned >1 times
+2.96% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+176127 reads; of these:
+  176127 (100.00%) were paired; of these:
+    175883 (99.86%) aligned concordantly 0 times
+    217 (0.12%) aligned concordantly exactly 1 time
+    27 (0.02%) aligned concordantly >1 times
+    ----
+    175883 pairs aligned concordantly 0 times; of these:
+      45 (0.03%) aligned discordantly 1 time
+    ----
+    175838 pairs aligned 0 times concordantly or discordantly; of these:
+      351676 mates make up the pairs; of these:
+        351596 (99.98%) aligned 0 times
+        52 (0.01%) aligned exactly 1 time
+        28 (0.01%) aligned >1 times
+0.19% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+51244 reads; of these:
+  51244 (100.00%) were paired; of these:
+    51176 (99.87%) aligned concordantly 0 times
+    48 (0.09%) aligned concordantly exactly 1 time
+    20 (0.04%) aligned concordantly >1 times
+    ----
+    51176 pairs aligned concordantly 0 times; of these:
+      34 (0.07%) aligned discordantly 1 time
+    ----
+    51142 pairs aligned 0 times concordantly or discordantly; of these:
+      102284 mates make up the pairs; of these:
+        102248 (99.96%) aligned 0 times
+        22 (0.02%) aligned exactly 1 time
+        14 (0.01%) aligned >1 times
+0.23% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+43405 reads; of these:
+  43405 (100.00%) were paired; of these:
+    43192 (99.51%) aligned concordantly 0 times
+    168 (0.39%) aligned concordantly exactly 1 time
+    45 (0.10%) aligned concordantly >1 times
+    ----
+    43192 pairs aligned concordantly 0 times; of these:
+      53 (0.12%) aligned discordantly 1 time
+    ----
+    43139 pairs aligned 0 times concordantly or discordantly; of these:
+      86278 mates make up the pairs; of these:
+        86218 (99.93%) aligned 0 times
+        32 (0.04%) aligned exactly 1 time
+        28 (0.03%) aligned >1 times
+0.68% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+104846 reads; of these:
+  104846 (100.00%) were paired; of these:
+    104305 (99.48%) aligned concordantly 0 times
+    468 (0.45%) aligned concordantly exactly 1 time
+    73 (0.07%) aligned concordantly >1 times
+    ----
+    104305 pairs aligned concordantly 0 times; of these:
+      116 (0.11%) aligned discordantly 1 time
+    ----
+    104189 pairs aligned 0 times concordantly or discordantly; of these:
+      208378 mates make up the pairs; of these:
+        208163 (99.90%) aligned 0 times
+        120 (0.06%) aligned exactly 1 time
+        95 (0.05%) aligned >1 times
+0.73% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+59192 reads; of these:
+  59192 (100.00%) were paired; of these:
+    59109 (99.86%) aligned concordantly 0 times
+    77 (0.13%) aligned concordantly exactly 1 time
+    6 (0.01%) aligned concordantly >1 times
+    ----
+    59109 pairs aligned concordantly 0 times; of these:
+      36 (0.06%) aligned discordantly 1 time
+    ----
+    59073 pairs aligned 0 times concordantly or discordantly; of these:
+      118146 mates make up the pairs; of these:
+        118100 (99.96%) aligned 0 times
+        28 (0.02%) aligned exactly 1 time
+        18 (0.02%) aligned >1 times
+0.24% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+47840 reads; of these:
+  47840 (100.00%) were paired; of these:
+    47738 (99.79%) aligned concordantly 0 times
+    91 (0.19%) aligned concordantly exactly 1 time
+    11 (0.02%) aligned concordantly >1 times
+    ----
+    47738 pairs aligned concordantly 0 times; of these:
+      48 (0.10%) aligned discordantly 1 time
+    ----
+    47690 pairs aligned 0 times concordantly or discordantly; of these:
+      95380 mates make up the pairs; of these:
+        95318 (99.93%) aligned 0 times
+        27 (0.03%) aligned exactly 1 time
+        35 (0.04%) aligned >1 times
+0.38% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+38110 reads; of these:
+  38110 (100.00%) were paired; of these:
+    38044 (99.83%) aligned concordantly 0 times
+    61 (0.16%) aligned concordantly exactly 1 time
+    5 (0.01%) aligned concordantly >1 times
+    ----
+    38044 pairs aligned concordantly 0 times; of these:
+      43 (0.11%) aligned discordantly 1 time
+    ----
+    38001 pairs aligned 0 times concordantly or discordantly; of these:
+      76002 mates make up the pairs; of these:
+        75984 (99.98%) aligned 0 times
+        5 (0.01%) aligned exactly 1 time
+        13 (0.02%) aligned >1 times
+0.31% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+247467 reads; of these:
+  247467 (100.00%) were paired; of these:
+    247121 (99.86%) aligned concordantly 0 times
+    281 (0.11%) aligned concordantly exactly 1 time
+    65 (0.03%) aligned concordantly >1 times
+    ----
+    247121 pairs aligned concordantly 0 times; of these:
+      57 (0.02%) aligned discordantly 1 time
+    ----
+    247064 pairs aligned 0 times concordantly or discordantly; of these:
+      494128 mates make up the pairs; of these:
+        494035 (99.98%) aligned 0 times
+        44 (0.01%) aligned exactly 1 time
+        49 (0.01%) aligned >1 times
+0.18% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+17119 reads; of these:
+  17119 (100.00%) were paired; of these:
+    16907 (98.76%) aligned concordantly 0 times
+    177 (1.03%) aligned concordantly exactly 1 time
+    35 (0.20%) aligned concordantly >1 times
+    ----
+    16907 pairs aligned concordantly 0 times; of these:
+      68 (0.40%) aligned discordantly 1 time
+    ----
+    16839 pairs aligned 0 times concordantly or discordantly; of these:
+      33678 mates make up the pairs; of these:
+        33600 (99.77%) aligned 0 times
+        44 (0.13%) aligned exactly 1 time
+        34 (0.10%) aligned >1 times
+1.86% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+65013 reads; of these:
+  65013 (100.00%) were paired; of these:
+    64909 (99.84%) aligned concordantly 0 times
+    84 (0.13%) aligned concordantly exactly 1 time
+    20 (0.03%) aligned concordantly >1 times
+    ----
+    64909 pairs aligned concordantly 0 times; of these:
+      38 (0.06%) aligned discordantly 1 time
+    ----
+    64871 pairs aligned 0 times concordantly or discordantly; of these:
+      129742 mates make up the pairs; of these:
+        129707 (99.97%) aligned 0 times
+        20 (0.02%) aligned exactly 1 time
+        15 (0.01%) aligned >1 times
+0.25% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+49701 reads; of these:
+  49701 (100.00%) were paired; of these:
+    49616 (99.83%) aligned concordantly 0 times
+    67 (0.13%) aligned concordantly exactly 1 time
+    18 (0.04%) aligned concordantly >1 times
+    ----
+    49616 pairs aligned concordantly 0 times; of these:
+      104 (0.21%) aligned discordantly 1 time
+    ----
+    49512 pairs aligned 0 times concordantly or discordantly; of these:
+      99024 mates make up the pairs; of these:
+        98938 (99.91%) aligned 0 times
+        39 (0.04%) aligned exactly 1 time
+        47 (0.05%) aligned >1 times
+0.47% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+60792 reads; of these:
+  60792 (100.00%) were paired; of these:
+    60751 (99.93%) aligned concordantly 0 times
+    30 (0.05%) aligned concordantly exactly 1 time
+    11 (0.02%) aligned concordantly >1 times
+    ----
+    60751 pairs aligned concordantly 0 times; of these:
+      21 (0.03%) aligned discordantly 1 time
+    ----
+    60730 pairs aligned 0 times concordantly or discordantly; of these:
+      121460 mates make up the pairs; of these:
+        121436 (99.98%) aligned 0 times
+        12 (0.01%) aligned exactly 1 time
+        12 (0.01%) aligned >1 times
+0.12% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+26105 reads; of these:
+  26105 (100.00%) were paired; of these:
+    26049 (99.79%) aligned concordantly 0 times
+    43 (0.16%) aligned concordantly exactly 1 time
+    13 (0.05%) aligned concordantly >1 times
+    ----
+    26049 pairs aligned concordantly 0 times; of these:
+      19 (0.07%) aligned discordantly 1 time
+    ----
+    26030 pairs aligned 0 times concordantly or discordantly; of these:
+      52060 mates make up the pairs; of these:
+        52038 (99.96%) aligned 0 times
+        14 (0.03%) aligned exactly 1 time
+        8 (0.02%) aligned >1 times
+0.33% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+78478 reads; of these:
+  78478 (100.00%) were paired; of these:
+    78289 (99.76%) aligned concordantly 0 times
+    155 (0.20%) aligned concordantly exactly 1 time
+    34 (0.04%) aligned concordantly >1 times
+    ----
+    78289 pairs aligned concordantly 0 times; of these:
+      35 (0.04%) aligned discordantly 1 time
+    ----
+    78254 pairs aligned 0 times concordantly or discordantly; of these:
+      156508 mates make up the pairs; of these:
+        156467 (99.97%) aligned 0 times
+        23 (0.01%) aligned exactly 1 time
+        18 (0.01%) aligned >1 times
+0.31% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+60375 reads; of these:
+  60375 (100.00%) were paired; of these:
+    60000 (99.38%) aligned concordantly 0 times
+    312 (0.52%) aligned concordantly exactly 1 time
+    63 (0.10%) aligned concordantly >1 times
+    ----
+    60000 pairs aligned concordantly 0 times; of these:
+      71 (0.12%) aligned discordantly 1 time
+    ----
+    59929 pairs aligned 0 times concordantly or discordantly; of these:
+      119858 mates make up the pairs; of these:
+        119761 (99.92%) aligned 0 times
+        55 (0.05%) aligned exactly 1 time
+        42 (0.04%) aligned >1 times
+0.82% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+89757 reads; of these:
+  89757 (100.00%) were paired; of these:
+    89184 (99.36%) aligned concordantly 0 times
+    485 (0.54%) aligned concordantly exactly 1 time
+    88 (0.10%) aligned concordantly >1 times
+    ----
+    89184 pairs aligned concordantly 0 times; of these:
+      97 (0.11%) aligned discordantly 1 time
+    ----
+    89087 pairs aligned 0 times concordantly or discordantly; of these:
+      178174 mates make up the pairs; of these:
+        178054 (99.93%) aligned 0 times
+        63 (0.04%) aligned exactly 1 time
+        57 (0.03%) aligned >1 times
+0.81% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+42078 reads; of these:
+  42078 (100.00%) were paired; of these:
+    42015 (99.85%) aligned concordantly 0 times
+    52 (0.12%) aligned concordantly exactly 1 time
+    11 (0.03%) aligned concordantly >1 times
+    ----
+    42015 pairs aligned concordantly 0 times; of these:
+      27 (0.06%) aligned discordantly 1 time
+    ----
+    41988 pairs aligned 0 times concordantly or discordantly; of these:
+      83976 mates make up the pairs; of these:
+        83959 (99.98%) aligned 0 times
+        9 (0.01%) aligned exactly 1 time
+        8 (0.01%) aligned >1 times
+0.23% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+81103 reads; of these:
+  81103 (100.00%) were paired; of these:
+    81022 (99.90%) aligned concordantly 0 times
+    67 (0.08%) aligned concordantly exactly 1 time
+    14 (0.02%) aligned concordantly >1 times
+    ----
+    81022 pairs aligned concordantly 0 times; of these:
+      42 (0.05%) aligned discordantly 1 time
+    ----
+    80980 pairs aligned 0 times concordantly or discordantly; of these:
+      161960 mates make up the pairs; of these:
+        161917 (99.97%) aligned 0 times
+        28 (0.02%) aligned exactly 1 time
+        15 (0.01%) aligned >1 times
+0.18% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+28658 reads; of these:
+  28658 (100.00%) were paired; of these:
+    28606 (99.82%) aligned concordantly 0 times
+    44 (0.15%) aligned concordantly exactly 1 time
+    8 (0.03%) aligned concordantly >1 times
+    ----
+    28606 pairs aligned concordantly 0 times; of these:
+      19 (0.07%) aligned discordantly 1 time
+    ----
+    28587 pairs aligned 0 times concordantly or discordantly; of these:
+      57174 mates make up the pairs; of these:
+        57142 (99.94%) aligned 0 times
+        12 (0.02%) aligned exactly 1 time
+        20 (0.03%) aligned >1 times
+0.30% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+47212 reads; of these:
+  47212 (100.00%) were paired; of these:
+    47125 (99.82%) aligned concordantly 0 times
+    71 (0.15%) aligned concordantly exactly 1 time
+    16 (0.03%) aligned concordantly >1 times
+    ----
+    47125 pairs aligned concordantly 0 times; of these:
+      42 (0.09%) aligned discordantly 1 time
+    ----
+    47083 pairs aligned 0 times concordantly or discordantly; of these:
+      94166 mates make up the pairs; of these:
+        94129 (99.96%) aligned 0 times
+        15 (0.02%) aligned exactly 1 time
+        22 (0.02%) aligned >1 times
+0.31% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+65789 reads; of these:
+  65789 (100.00%) were paired; of these:
+    65727 (99.91%) aligned concordantly 0 times
+    54 (0.08%) aligned concordantly exactly 1 time
+    8 (0.01%) aligned concordantly >1 times
+    ----
+    65727 pairs aligned concordantly 0 times; of these:
+      40 (0.06%) aligned discordantly 1 time
+    ----
+    65687 pairs aligned 0 times concordantly or discordantly; of these:
+      131374 mates make up the pairs; of these:
+        131349 (99.98%) aligned 0 times
+        12 (0.01%) aligned exactly 1 time
+        13 (0.01%) aligned >1 times
+0.17% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+52978 reads; of these:
+  52978 (100.00%) were paired; of these:
+    52793 (99.65%) aligned concordantly 0 times
+    143 (0.27%) aligned concordantly exactly 1 time
+    42 (0.08%) aligned concordantly >1 times
+    ----
+    52793 pairs aligned concordantly 0 times; of these:
+      71 (0.13%) aligned discordantly 1 time
+    ----
+    52722 pairs aligned 0 times concordantly or discordantly; of these:
+      105444 mates make up the pairs; of these:
+        105361 (99.92%) aligned 0 times
+        53 (0.05%) aligned exactly 1 time
+        30 (0.03%) aligned >1 times
+0.56% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+140718 reads; of these:
+  140718 (100.00%) were paired; of these:
+    140199 (99.63%) aligned concordantly 0 times
+    431 (0.31%) aligned concordantly exactly 1 time
+    88 (0.06%) aligned concordantly >1 times
+    ----
+    140199 pairs aligned concordantly 0 times; of these:
+      97 (0.07%) aligned discordantly 1 time
+    ----
+    140102 pairs aligned 0 times concordantly or discordantly; of these:
+      280204 mates make up the pairs; of these:
+        280076 (99.95%) aligned 0 times
+        72 (0.03%) aligned exactly 1 time
+        56 (0.02%) aligned >1 times
+0.48% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+26545 reads; of these:
+  26545 (100.00%) were paired; of these:
+    26508 (99.86%) aligned concordantly 0 times
+    31 (0.12%) aligned concordantly exactly 1 time
+    6 (0.02%) aligned concordantly >1 times
+    ----
+    26508 pairs aligned concordantly 0 times; of these:
+      13 (0.05%) aligned discordantly 1 time
+    ----
+    26495 pairs aligned 0 times concordantly or discordantly; of these:
+      52990 mates make up the pairs; of these:
+        52975 (99.97%) aligned 0 times
+        11 (0.02%) aligned exactly 1 time
+        4 (0.01%) aligned >1 times
+0.22% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+78751 reads; of these:
+  78751 (100.00%) were paired; of these:
+    78510 (99.69%) aligned concordantly 0 times
+    204 (0.26%) aligned concordantly exactly 1 time
+    37 (0.05%) aligned concordantly >1 times
+    ----
+    78510 pairs aligned concordantly 0 times; of these:
+      49 (0.06%) aligned discordantly 1 time
+    ----
+    78461 pairs aligned 0 times concordantly or discordantly; of these:
+      156922 mates make up the pairs; of these:
+        156877 (99.97%) aligned 0 times
+        24 (0.02%) aligned exactly 1 time
+        21 (0.01%) aligned >1 times
+0.40% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+81565 reads; of these:
+  81565 (100.00%) were paired; of these:
+    81238 (99.60%) aligned concordantly 0 times
+    278 (0.34%) aligned concordantly exactly 1 time
+    49 (0.06%) aligned concordantly >1 times
+    ----
+    81238 pairs aligned concordantly 0 times; of these:
+      61 (0.08%) aligned discordantly 1 time
+    ----
+    81177 pairs aligned 0 times concordantly or discordantly; of these:
+      162354 mates make up the pairs; of these:
+        162245 (99.93%) aligned 0 times
+        52 (0.03%) aligned exactly 1 time
+        57 (0.04%) aligned >1 times
+0.54% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+195574 reads; of these:
+  195574 (100.00%) were paired; of these:
+    195174 (99.80%) aligned concordantly 0 times
+    351 (0.18%) aligned concordantly exactly 1 time
+    49 (0.03%) aligned concordantly >1 times
+    ----
+    195174 pairs aligned concordantly 0 times; of these:
+      94 (0.05%) aligned discordantly 1 time
+    ----
+    195080 pairs aligned 0 times concordantly or discordantly; of these:
+      390160 mates make up the pairs; of these:
+        390080 (99.98%) aligned 0 times
+        46 (0.01%) aligned exactly 1 time
+        34 (0.01%) aligned >1 times
+0.27% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+63822 reads; of these:
+  63822 (100.00%) were paired; of these:
+    63570 (99.61%) aligned concordantly 0 times
+    209 (0.33%) aligned concordantly exactly 1 time
+    43 (0.07%) aligned concordantly >1 times
+    ----
+    63570 pairs aligned concordantly 0 times; of these:
+      53 (0.08%) aligned discordantly 1 time
+    ----
+    63517 pairs aligned 0 times concordantly or discordantly; of these:
+      127034 mates make up the pairs; of these:
+        126968 (99.95%) aligned 0 times
+        19 (0.01%) aligned exactly 1 time
+        47 (0.04%) aligned >1 times
+0.53% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+47554 reads; of these:
+  47554 (100.00%) were paired; of these:
+    47377 (99.63%) aligned concordantly 0 times
+    152 (0.32%) aligned concordantly exactly 1 time
+    25 (0.05%) aligned concordantly >1 times
+    ----
+    47377 pairs aligned concordantly 0 times; of these:
+      87 (0.18%) aligned discordantly 1 time
+    ----
+    47290 pairs aligned 0 times concordantly or discordantly; of these:
+      94580 mates make up the pairs; of these:
+        94486 (99.90%) aligned 0 times
+        36 (0.04%) aligned exactly 1 time
+        58 (0.06%) aligned >1 times
+0.65% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+51753 reads; of these:
+  51753 (100.00%) were paired; of these:
+    51382 (99.28%) aligned concordantly 0 times
+    318 (0.61%) aligned concordantly exactly 1 time
+    53 (0.10%) aligned concordantly >1 times
+    ----
+    51382 pairs aligned concordantly 0 times; of these:
+      154 (0.30%) aligned discordantly 1 time
+    ----
+    51228 pairs aligned 0 times concordantly or discordantly; of these:
+      102456 mates make up the pairs; of these:
+        102263 (99.81%) aligned 0 times
+        97 (0.09%) aligned exactly 1 time
+        96 (0.09%) aligned >1 times
+1.20% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+56967 reads; of these:
+  56967 (100.00%) were paired; of these:
+    56515 (99.21%) aligned concordantly 0 times
+    372 (0.65%) aligned concordantly exactly 1 time
+    80 (0.14%) aligned concordantly >1 times
+    ----
+    56515 pairs aligned concordantly 0 times; of these:
+      105 (0.19%) aligned discordantly 1 time
+    ----
+    56410 pairs aligned 0 times concordantly or discordantly; of these:
+      112820 mates make up the pairs; of these:
+        112659 (99.86%) aligned 0 times
+        90 (0.08%) aligned exactly 1 time
+        71 (0.06%) aligned >1 times
+1.12% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+209619 reads; of these:
+  209619 (100.00%) were paired; of these:
+    209409 (99.90%) aligned concordantly 0 times
+    187 (0.09%) aligned concordantly exactly 1 time
+    23 (0.01%) aligned concordantly >1 times
+    ----
+    209409 pairs aligned concordantly 0 times; of these:
+      68 (0.03%) aligned discordantly 1 time
+    ----
+    209341 pairs aligned 0 times concordantly or discordantly; of these:
+      418682 mates make up the pairs; of these:
+        418626 (99.99%) aligned 0 times
+        23 (0.01%) aligned exactly 1 time
+        33 (0.01%) aligned >1 times
+0.15% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+78312 reads; of these:
+  78312 (100.00%) were paired; of these:
+    78225 (99.89%) aligned concordantly 0 times
+    68 (0.09%) aligned concordantly exactly 1 time
+    19 (0.02%) aligned concordantly >1 times
+    ----
+    78225 pairs aligned concordantly 0 times; of these:
+      20 (0.03%) aligned discordantly 1 time
+    ----
+    78205 pairs aligned 0 times concordantly or discordantly; of these:
+      156410 mates make up the pairs; of these:
+        156378 (99.98%) aligned 0 times
+        12 (0.01%) aligned exactly 1 time
+        20 (0.01%) aligned >1 times
+0.16% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+6234 reads; of these:
+  6234 (100.00%) were paired; of these:
+    6230 (99.94%) aligned concordantly 0 times
+    4 (0.06%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    6230 pairs aligned concordantly 0 times; of these:
+      4 (0.06%) aligned discordantly 1 time
+    ----
+    6226 pairs aligned 0 times concordantly or discordantly; of these:
+      12452 mates make up the pairs; of these:
+        12449 (99.98%) aligned 0 times
+        1 (0.01%) aligned exactly 1 time
+        2 (0.02%) aligned >1 times
+0.15% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+18319 reads; of these:
+  18319 (100.00%) were paired; of these:
+    18286 (99.82%) aligned concordantly 0 times
+    27 (0.15%) aligned concordantly exactly 1 time
+    6 (0.03%) aligned concordantly >1 times
+    ----
+    18286 pairs aligned concordantly 0 times; of these:
+      12 (0.07%) aligned discordantly 1 time
+    ----
+    18274 pairs aligned 0 times concordantly or discordantly; of these:
+      36548 mates make up the pairs; of these:
+        36538 (99.97%) aligned 0 times
+        6 (0.02%) aligned exactly 1 time
+        4 (0.01%) aligned >1 times
+0.27% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+118811 reads; of these:
+  118811 (100.00%) were paired; of these:
+    118160 (99.45%) aligned concordantly 0 times
+    554 (0.47%) aligned concordantly exactly 1 time
+    97 (0.08%) aligned concordantly >1 times
+    ----
+    118160 pairs aligned concordantly 0 times; of these:
+      142 (0.12%) aligned discordantly 1 time
+    ----
+    118018 pairs aligned 0 times concordantly or discordantly; of these:
+      236036 mates make up the pairs; of these:
+        235900 (99.94%) aligned 0 times
+        66 (0.03%) aligned exactly 1 time
+        70 (0.03%) aligned >1 times
+0.72% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+115677 reads; of these:
+  115677 (100.00%) were paired; of these:
+    115508 (99.85%) aligned concordantly 0 times
+    144 (0.12%) aligned concordantly exactly 1 time
+    25 (0.02%) aligned concordantly >1 times
+    ----
+    115508 pairs aligned concordantly 0 times; of these:
+      64 (0.06%) aligned discordantly 1 time
+    ----
+    115444 pairs aligned 0 times concordantly or discordantly; of these:
+      230888 mates make up the pairs; of these:
+        230817 (99.97%) aligned 0 times
+        38 (0.02%) aligned exactly 1 time
+        33 (0.01%) aligned >1 times
+0.23% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+108472 reads; of these:
+  108472 (100.00%) were paired; of these:
+    108472 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    108472 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    108472 pairs aligned 0 times concordantly or discordantly; of these:
+      216944 mates make up the pairs; of these:
+        216936 (100.00%) aligned 0 times
+        6 (0.00%) aligned exactly 1 time
+        2 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+37676 reads; of these:
+  37676 (100.00%) were paired; of these:
+    37676 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    37676 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    37676 pairs aligned 0 times concordantly or discordantly; of these:
+      75352 mates make up the pairs; of these:
+        75350 (100.00%) aligned 0 times
+        1 (0.00%) aligned exactly 1 time
+        1 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+54662 reads; of these:
+  54662 (100.00%) were paired; of these:
+    54662 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    54662 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    54662 pairs aligned 0 times concordantly or discordantly; of these:
+      109324 mates make up the pairs; of these:
+        109323 (100.00%) aligned 0 times
+        1 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+20751 reads; of these:
+  20751 (100.00%) were paired; of these:
+    20751 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    20751 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    20751 pairs aligned 0 times concordantly or discordantly; of these:
+      41502 mates make up the pairs; of these:
+        41502 (100.00%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+33248 reads; of these:
+  33248 (100.00%) were paired; of these:
+    33248 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    33248 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    33248 pairs aligned 0 times concordantly or discordantly; of these:
+      66496 mates make up the pairs; of these:
+        66494 (100.00%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        2 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+16083 reads; of these:
+  16083 (100.00%) were paired; of these:
+    16083 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    16083 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    16083 pairs aligned 0 times concordantly or discordantly; of these:
+      32166 mates make up the pairs; of these:
+        32165 (100.00%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        1 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+648 reads; of these:
+  648 (100.00%) were paired; of these:
+    648 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    648 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    648 pairs aligned 0 times concordantly or discordantly; of these:
+      1296 mates make up the pairs; of these:
+        1296 (100.00%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+22637 reads; of these:
+  22637 (100.00%) were paired; of these:
+    22637 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    22637 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    22637 pairs aligned 0 times concordantly or discordantly; of these:
+      45274 mates make up the pairs; of these:
+        45274 (100.00%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+848 reads; of these:
+  848 (100.00%) were paired; of these:
+    848 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    848 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    848 pairs aligned 0 times concordantly or discordantly; of these:
+      1696 mates make up the pairs; of these:
+        1696 (100.00%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+579 reads; of these:
+  579 (100.00%) were paired; of these:
+    579 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    579 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    579 pairs aligned 0 times concordantly or discordantly; of these:
+      1158 mates make up the pairs; of these:
+        1156 (99.83%) aligned 0 times
+        1 (0.09%) aligned exactly 1 time
+        1 (0.09%) aligned >1 times
+0.17% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+946 reads; of these:
+  946 (100.00%) were paired; of these:
+    946 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    946 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    946 pairs aligned 0 times concordantly or discordantly; of these:
+      1892 mates make up the pairs; of these:
+        1892 (100.00%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+784 reads; of these:
+  784 (100.00%) were paired; of these:
+    784 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    784 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    784 pairs aligned 0 times concordantly or discordantly; of these:
+      1568 mates make up the pairs; of these:
+        1568 (100.00%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+18516 reads; of these:
+  18516 (100.00%) were paired; of these:
+    18516 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    18516 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    18516 pairs aligned 0 times concordantly or discordantly; of these:
+      37032 mates make up the pairs; of these:
+        37031 (100.00%) aligned 0 times
+        1 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+1216 reads; of these:
+  1216 (100.00%) were paired; of these:
+    1216 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    1216 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    1216 pairs aligned 0 times concordantly or discordantly; of these:
+      2432 mates make up the pairs; of these:
+        2432 (100.00%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+479 reads; of these:
+  479 (100.00%) were paired; of these:
+    479 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    479 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    479 pairs aligned 0 times concordantly or discordantly; of these:
+      958 mates make up the pairs; of these:
+        958 (100.00%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+50233 reads; of these:
+  50233 (100.00%) were paired; of these:
+    50233 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    50233 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    50233 pairs aligned 0 times concordantly or discordantly; of these:
+      100466 mates make up the pairs; of these:
+        100465 (100.00%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        1 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+15156 reads; of these:
+  15156 (100.00%) were paired; of these:
+    15156 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    15156 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    15156 pairs aligned 0 times concordantly or discordantly; of these:
+      30312 mates make up the pairs; of these:
+        30311 (100.00%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        1 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+5992 reads; of these:
+  5992 (100.00%) were paired; of these:
+    5992 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    5992 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    5992 pairs aligned 0 times concordantly or discordantly; of these:
+      11984 mates make up the pairs; of these:
+        11982 (99.98%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        2 (0.02%) aligned >1 times
+0.02% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+25612 reads; of these:
+  25612 (100.00%) were paired; of these:
+    25612 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    25612 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    25612 pairs aligned 0 times concordantly or discordantly; of these:
+      51224 mates make up the pairs; of these:
+        51224 (100.00%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+7506 reads; of these:
+  7506 (100.00%) were paired; of these:
+    7506 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    7506 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    7506 pairs aligned 0 times concordantly or discordantly; of these:
+      15012 mates make up the pairs; of these:
+        15012 (100.00%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+743 reads; of these:
+  743 (100.00%) were paired; of these:
+    743 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    743 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    743 pairs aligned 0 times concordantly or discordantly; of these:
+      1486 mates make up the pairs; of these:
+        1486 (100.00%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+1715 reads; of these:
+  1715 (100.00%) were paired; of these:
+    1715 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    1715 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    1715 pairs aligned 0 times concordantly or discordantly; of these:
+      3430 mates make up the pairs; of these:
+        3428 (99.94%) aligned 0 times
+        1 (0.03%) aligned exactly 1 time
+        1 (0.03%) aligned >1 times
+0.06% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+1433 reads; of these:
+  1433 (100.00%) were paired; of these:
+    1433 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    1433 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    1433 pairs aligned 0 times concordantly or discordantly; of these:
+      2866 mates make up the pairs; of these:
+        2866 (100.00%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+2728 reads; of these:
+  2728 (100.00%) were paired; of these:
+    2728 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    2728 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    2728 pairs aligned 0 times concordantly or discordantly; of these:
+      5456 mates make up the pairs; of these:
+        5456 (100.00%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+9763 reads; of these:
+  9763 (100.00%) were paired; of these:
+    9763 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    9763 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    9763 pairs aligned 0 times concordantly or discordantly; of these:
+      19526 mates make up the pairs; of these:
+        19526 (100.00%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+30168 reads; of these:
+  30168 (100.00%) were paired; of these:
+    30168 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    30168 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    30168 pairs aligned 0 times concordantly or discordantly; of these:
+      60336 mates make up the pairs; of these:
+        60334 (100.00%) aligned 0 times
+        2 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+338 reads; of these:
+  338 (100.00%) were paired; of these:
+    338 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    338 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    338 pairs aligned 0 times concordantly or discordantly; of these:
+      676 mates make up the pairs; of these:
+        676 (100.00%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+607 reads; of these:
+  607 (100.00%) were paired; of these:
+    607 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    607 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    607 pairs aligned 0 times concordantly or discordantly; of these:
+      1214 mates make up the pairs; of these:
+        1212 (99.84%) aligned 0 times
+        1 (0.08%) aligned exactly 1 time
+        1 (0.08%) aligned >1 times
+0.16% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+382 reads; of these:
+  382 (100.00%) were paired; of these:
+    382 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    382 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    382 pairs aligned 0 times concordantly or discordantly; of these:
+      764 mates make up the pairs; of these:
+        764 (100.00%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/users/astar/gis/tancsc/miniconda3/envs/metagenomics/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+658 reads; of these:
+  658 (100.00%) were paired; of these:
+    658 (100.00%) aligned concordantly 0 times
+    0 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    658 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    658 pairs aligned 0 times concordantly or discordantly; of these:
+      1316 mates make up the pairs; of these:
+        1316 (100.00%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate

@@ -2,7 +2,7 @@
 # Input: CRAM file
 # Output: fastq file containing read and mates
 source ~/miniconda3/etc/profile.d/conda.sh
-conda activate metameta
+conda activate metagenomics
 
 COHORT=$1
 MUX=$2

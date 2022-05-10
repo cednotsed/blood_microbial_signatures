@@ -11,7 +11,7 @@ n=topup
 # Output: fastq file containing read and mates
 
 source ~/miniconda3/etc/profile.d/conda.sh
-conda activate metameta
+conda activate metagenomics
 
 WKDIR=/scratch/users/astar/gis/tancsc/blood_microbiome_files_2
 SCRIPTS=/home/projects/14001280/PROJECTS/blood_microbiome/pipeline_2
