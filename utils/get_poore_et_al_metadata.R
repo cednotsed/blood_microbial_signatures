@@ -10,6 +10,11 @@ healthy <- meta %>%
          antifungal != 1, 
          antiviral != 1)
 
+meta %>% 
+  filter(aids_status_clean == "Control") %>%
+  filter(antibacterial == 1| antifungal == 1| antiviral == 1) %>%
+  View()
+
 blanks <- meta %>% 
   filter(grepl("blank", empo_3, ignore.case = T))
 
@@ -33,7 +38,7 @@ df_filt <- df %>%
   select(-sample_accession)
 
 # Get highest read count library
-morsels <- foreach(sample_id = df_filt$sample_title) %do% {
+morsels <- foreach(sample_id = all$sample_name) %do% {
   temp <- df_filt %>%
     filter(sample_title == sample_id) %>%
     arrange(desc(read_count)) %>%
@@ -43,7 +48,14 @@ morsels <- foreach(sample_id = df_filt$sample_title) %do% {
 
 df_final <- bind_rows(morsels)
 
-df_final %>% 
-  group_by(sample_title) %>%
-  summarise(n = n()) %>%
-  arrange(n)
+final_meta <- df_final %>%
+  rename(sample_name = sample_title) %>%
+  left_join(all)
+
+links_only <- final_meta %>%
+  select(fastq_ftp) %>%
+  separate(fastq_ftp, into = c("fastq1", "fastq2"), sep = ";")
+links_only <- tibble(links = paste0("http://", c(links_only$fastq1, links_only$fastq2)))
+
+fwrite(final_meta %>% select(-fastq_ftp), "data/poore_et_al/poore_meta.parsed.csv") 
+fwrite(links_only, "data/poore_et_al/poore_fastq_links.txt", col.names = F, eol = "") 

@@ -4,12 +4,21 @@ require(tidyverse)
 require(data.table)
 require(foreach)
 
-prev_max_filt <- fread("results/decontamination/")
-
+# NPM data
 fasta_files <- list.files("data/irep_data/genome_references/")
+fasta_files <- list.files("data/irep_data/genome_references_Paraburkholderia/")
 fasta_files <- fasta_files[grepl("fasta", fasta_files)]
 df <- fread("results/decontamination/read_matrix.raw.zeroed.csv")
+out_dir <- "data/irep_data/sample_lists"
+n_top <- 5
+
+fasta_files <- list.files("data/poore_et_al/genome_references_poore/")
+fasta_files <- fasta_files[grepl("fasta", fasta_files)]
+df <- fread("data/poore_et_al/pipeline_2_output/07_abundance_matrix/abundance_matrix.S.tsv") %>%
+  mutate(npm_research_id = gsub("poore.", "", sample))
+out_dir <- "data/poore_et_al/sample_lists_poore"
 taxa <- colnames(df)
+n_top <- 1
 
 # fasta_name <- fasta_files[2]
 for (fasta_name in fasta_files) {
@@ -21,9 +30,11 @@ for (fasta_name in fasta_files) {
   taxon <- taxa[grepl(genus, taxa, ignore.case = T)]
   taxon <- c(taxon)[grepl(species, taxon, ignore.case = T)]
   taxon <- taxon[!grepl("monkey", taxon)]
+  taxon <- taxon[!grepl("cangingivalis", taxon)]
+  taxon <- taxon[!grepl("pseudolongum", taxon)]
   
-  if (grepl("virus", fasta_name)) {
-    if (grepl("Torque", fasta_name)) {
+  if (grepl("virus|oral_taxon", fasta_name)) {
+    if (grepl("Torque|414", fasta_name)) {
       taxon <- taxon[grepl(species2, taxon)]
       taxon <- taxon[grepl(species3, taxon)]
     } else {
@@ -39,12 +50,12 @@ for (fasta_name in fasta_files) {
         select(all_of(c("npm_research_id", taxon))) %>%
         filter(get(taxon) != 0) %>%
         arrange(desc(get(taxon))) %>%
-        head(5) %>%
+        head(n_top) %>%
         select(npm_research_id)
       
       save_name <- gsub(".fasta", "", fasta_name)
       
-      fwrite(temp_list, str_glue("data/irep_data/sample_lists/{save_name}.txt"), 
+      fwrite(temp_list, str_glue("{out_dir}/{save_name}.txt"), 
              col.names = F,
              eol = "\n")
       
