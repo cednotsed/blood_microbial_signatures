@@ -10,9 +10,10 @@ disbiome <- jsonlite::fromJSON("https://disbiome.ugent.be:8080/experiment") %>% 
 # List all names
 sample_types <- unique(disbiome$sample_name)
 control_types <- unique(disbiome$control_name)
+
 # Save
-tibble(sample_type = sample_types) %>% fwrite("results/annotations/disbiome_list.sample_types.csv")
-tibble(control_type = control_types) %>% fwrite("results/annotations/disbiome_list.control_types.csv")
+tibble(sample_type = sample_types) %>% fwrite("results/annotations/disbiome_list.sample_types.060722.csv")
+tibble(control_type = control_types) %>% fwrite("results/annotations/disbiome_list.control_types.060722.csv")
 ### Please manually curate sample sites ###
 
 # Load parsed species_list
@@ -29,17 +30,17 @@ human_site_df <- human_only %>%
   filter(!is.na(species) & species != "cluster",
          site != "unknown") %>%
   mutate(taxa = str_trim(organism_name, side = "both")) %>%
-  select(taxa, site, control_name)
+  select(taxa, sample_type, site, control_name)
 
-healthy_site_df <- human_site_df %>%
-  filter(grepl("healthy", control_name, ignore.case = T)) %>%
-  filter(!grepl("patient", control_name, ignore.case = T)) %>%
+# healthy_site_df <- human_site_df %>%
+#   filter(grepl("healthy", control_name, ignore.case = T)) %>%
+#   filter(!grepl("patient", control_name, ignore.case = T)) %>%
+#   select(-control_name) %>%
+#   distinct()
+
+human_site_df <- human_site_df %>%
   select(-control_name) %>%
   distinct()
 
-human_site_df <- human_site_df %>% 
-  select(-control_name) %>%
-  distinct()
-
-fwrite(human_site_df, "results/annotations/species_site_metadata.all_humans.csv")
-fwrite(healthy_site_df, "results/annotations/species_site_metadata.healthy_humans.csv")
+fwrite(human_site_df, "results/annotations/species_site_metadata.all_humans.060722.csv")
+# fwrite(healthy_site_df, "results/annotations/species_site_metadata.healthy_humans.060722.csv")

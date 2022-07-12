@@ -3,10 +3,10 @@ sam_dir=$base_dir/results/irep_analysis/raw_output/sam_files
 bam_dir=$base_dir/results/irep_analysis/raw_output/bam_files
 
 # Poore data
-sam_dir=$base_dir/results/poore_et_al/raw_output/sam_files
-bam_dir=$base_dir/results/poore_et_al/raw_output/bam_files
+#sam_dir=$base_dir/results/poore_et_al/raw_output/sam_files
+#bam_dir=$base_dir/results/poore_et_al/raw_output/bam_files
 
-for sub_path in $sam_dir/*
+for sub_path in $sam_dir/Mycolicibacterium_aubagnense*
 do
 	ref_prefix=$(echo $sub_path|sed "s|$sam_dir||g"| sed "s|/||g")
 	echo $ref_prefix

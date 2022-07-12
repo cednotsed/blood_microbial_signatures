@@ -6,19 +6,21 @@ require(foreach)
 
 # NPM data
 fasta_files <- list.files("data/irep_data/genome_references/")
-fasta_files <- list.files("data/irep_data/genome_references_Paraburkholderia/")
+# fasta_files <- list.files("data/irep_data/genome_references_Paraburkholderia/")
 fasta_files <- fasta_files[grepl("fasta", fasta_files)]
 df <- fread("results/decontamination/read_matrix.raw.zeroed.csv")
+taxa <- colnames(df)
 out_dir <- "data/irep_data/sample_lists"
 n_top <- 5
 
-fasta_files <- list.files("data/poore_et_al/genome_references_poore/")
-fasta_files <- fasta_files[grepl("fasta", fasta_files)]
-df <- fread("data/poore_et_al/pipeline_2_output/07_abundance_matrix/abundance_matrix.S.tsv") %>%
-  mutate(npm_research_id = gsub("poore.", "", sample))
-out_dir <- "data/poore_et_al/sample_lists_poore"
-taxa <- colnames(df)
-n_top <- 1
+# Poore et al
+# fasta_files <- list.files("data/poore_et_al/genome_references_poore/")
+# fasta_files <- fasta_files[grepl("fasta", fasta_files)]
+# df <- fread("data/poore_et_al/pipeline_2_output/07_abundance_matrix/abundance_matrix.S.tsv") %>%
+#   mutate(npm_research_id = gsub("poore.", "", sample))
+# out_dir <- "data/poore_et_al/sample_lists_poore"
+# taxa <- colnames(df)
+# n_top <- 1
 
 # fasta_name <- fasta_files[2]
 for (fasta_name in fasta_files) {

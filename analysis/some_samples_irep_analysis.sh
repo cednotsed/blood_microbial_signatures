@@ -1,14 +1,14 @@
 n_threads=4
 base_dir=/mnt/c/Users/Cedric/Desktop/git_repos/blood_microbiome
 fastq_dir=${base_dir}/data/irep_data/libraries
-ref_dir=${base_dir}/data/irep_data/genome_references_Paraburkholderia
+ref_dir=${base_dir}/data/irep_data/genome_references
 sample_dir=${base_dir}/data/irep_data/sample_lists
 result_dir=../results/irep_analysis/raw_output
 
-fastq_dir=${base_dir}/data/poore_et_al/poore_libraries
-ref_dir=${base_dir}/data/poore_et_al/genome_references_poore
-sample_dir=${base_dir}/data/poore_et_al/sample_lists_poore
-result_dir=../results/poore_et_al/raw_output
+#fastq_dir=${base_dir}/data/poore_et_al/poore_libraries
+#ref_dir=${base_dir}/data/poore_et_al/genome_references_poore
+#sample_dir=${base_dir}/data/poore_et_al/sample_lists_poore
+#result_dir=../results/poore_et_al/raw_output
 
 mkdir $result_dir
 

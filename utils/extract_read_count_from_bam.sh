@@ -2,10 +2,10 @@
 wkdir=../results/irep_analysis/raw_output
 
 # Poore data
-wkdir=../results/poore_et_al/raw_output
+#wkdir=../results/poore_et_al/raw_output
 
 bam_dir=$wkdir/bam_files
-output=$wkdir/mapping_read_counts.csv
+output=$wkdir/microbial_mapped_read_counts.csv
 
 echo prefix,npm_research_id,pairs_mapped > $output
 for bam_subdir in $bam_dir/*
