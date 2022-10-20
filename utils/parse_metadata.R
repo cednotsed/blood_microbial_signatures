@@ -1,12 +1,12 @@
-setwd("../Downloads/")
+setwd("../Desktop/git_repos/blood_microbial_signatures/")
 require(data.table)
 require(tidyverse)
 
 # Raw metadata
-meta <- fread("SG10K_Health_metadata.n10714.16March2021.txt")
+meta <- fread("data/SG10K_Health_metadata.n10714.16March2021.parsed.csv")
 
 # List of r3 samples
-meta2 <- fread("SG10K_Health_r5.3.n9770.sample_ids.txt", header = F)$V1
+meta2 <- fread("data/SG10K_Health_r5.3.n9770.sample_ids.txt", header = F)$V1
 
 # Parse column names
 n <- gsub("[^0-9A-Za-z///' ]", "", colnames(meta))

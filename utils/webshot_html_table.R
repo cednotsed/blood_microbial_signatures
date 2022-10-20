@@ -1,4 +1,4 @@
-setwd("../Desktop/git_repos/blood_microbiome/")
+setwd("../Desktop/git_repos/blood_microbial_signatures/")
 require(webshot2)
 
 html <- "results/irep_analysis/parsed_irep_results.html"

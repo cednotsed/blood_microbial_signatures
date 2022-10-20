@@ -1,4 +1,4 @@
-setwd("../Desktop/git_repos/blood_microbiome/")
+setwd("../Desktop/git_repos/blood_microbial_signatures/")
 require(tidyverse)
 require(data.table)
 require(foreach)
@@ -21,3 +21,4 @@ plot_df %>%
   group_by(Genus) %>%
   summarise(n = n())
 
+plot_df
