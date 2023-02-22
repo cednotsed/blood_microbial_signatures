@@ -8,12 +8,13 @@
 6)	Population and Global Health, Lee Kong Chian School of Medicine, Nanyang Technological University, 11 Mandalay Road, Singapore 308232, Republic of Singapore.
 7)	Department of Epidemiology and Biostatistics, Imperial College London, Exhibition Rd, South Kensington, London SW7 2BX, United Kingdom.
 8)	National Skin Centre, 1 Mandalay Rd, Singapore 308205, Republic of Singapore.
+
 #These authors jointly supervised this work
 
 Correspondence: cedriccstan@gmail.com (C.C.S. Tan) or nagarajann@gis.a-star.edu.sg (N. Nagarajan)
 
-Link to preprint on BioRXiv: https://doi.org/10.1101/2022.07.29.502098
+**Link to preprint on BioRXiv: https://doi.org/10.1101/2022.07.29.502098**
 
-Link to source data on Zenodo: https://doi.org/10.5281/zenodo.7665281
+**Link to source data on Zenodo: https://doi.org/10.5281/zenodo.7665281**
 
 ![Models of microbes in blood](extended_data_figures/Fig_S8_summary_figure.png)
