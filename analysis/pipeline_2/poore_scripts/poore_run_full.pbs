@@ -1,0 +1,45 @@
+#!/bin/bash
+#PBS -q normal
+#PBS -l select=1:ncpus=24:mem=60G
+#PBS -l walltime=03:00:00
+#PBS -P 14001280
+#PBS -N poore_pipeline
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate metagenomics
+
+WKDIR=/home/projects/14001280/PROJECTS/blood_microbiome/data/poore_et_al/pipeline_2_output
+CRAM_DIR=/home/projects/14001280/PROJECTS/blood_microbiome/data/poore_et_al/cram_files
+SCRIPTS=/home/projects/14001280/PROJECTS/blood_microbiome/pipeline_2
+N_THREADS=24
+
+# Create directories 
+mkdir ${WKDIR}
+mkdir ${WKDIR}/01_bam ${WKDIR}/01_fastq/ ${WKDIR}/02_fastq/ ${WKDIR}/03_fastq/ ${WKDIR}/04_fastq/ ${WKDIR}/05_fastq/ ${WKDIR}/06_reports/ ${WKDIR}/06_unclassified_fastq/ ${WKDIR}/07_abundance_matrix/
+
+for cram in $CRAM_DIR/*.cram
+do
+	COHORT="test"
+        MUX="poore"
+        SAMPLE=$(echo $cram | sed "s|$CRAM_DIR/||g"| sed "s|poore.||g"| sed "s|.cram||g")
+	echo $COHORT $MUX $SAMPLE
+        # Step 1: Extract unmapped read and mates from CRAM files
+        sh ${SCRIPTS}/poore_scripts/poore_extract_unmapped_reads_and_mates.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 1
+
+        # Step 2: Remove reads with only Ns
+        sh ${SCRIPTS}/remove_Ns.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 2
+
+        # Step 3: Quality trimming
+        sh ${SCRIPTS}/quality_trim.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 3
+
+        # Step 4: Quality filtering
+        sh ${SCRIPTS}/quality_filter.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 4
+
+        # Step 5: Remove low complexity reads
+        sh ${SCRIPTS}/remove_low_complexity.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 5
+
+        # Step 6: Kraken2 classification
+        sh ${SCRIPTS}/kraken2_assignment.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 6
+        
+done
+
+echo -------SCRIPT COMPLETE------- 

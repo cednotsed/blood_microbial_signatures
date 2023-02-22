@@ -1,5 +1,5 @@
 #npm data
-wkdir=../results/irep_analysis/raw_output
+wkdir=../results/irep_analysis/raw_output/noncontams
 
 # Poore data
 #wkdir=../results/poore_et_al/raw_output
@@ -7,17 +7,12 @@ wkdir=../results/irep_analysis/raw_output
 bam_dir=$wkdir/bam_files
 output=$wkdir/microbial_mapped_read_counts.csv
 
-echo prefix,npm_research_id,pairs_mapped > $output
-for bam_subdir in $bam_dir/*
-do
-	for bam_file in $bam_subdir/*.bam
-	do
-		echo $prefix
-		prefix=$(echo $bam_subdir | sed "s|$bam_dir||g"| sed "s|/||g")
-		id=$(echo $bam_file| sed "s|$bam_subdir||g"| sed "s|_$prefix||g"| sed "s|.bam||g"| sed "s|/||g")
-		read_count=$(samtools flagstat $bam_file|grep "properly paired"| awk -F " " '{print $1}')
-		echo $prefix,$id,$read_count >> $output
+echo bam_file,pairs_mapped > $output
 
-	done
+for bam_file in $bam_dir/*.bam
+do
+	echo $bam_file
+	prefix_out=$(echo $bam_file| sed "s|$bam_dir/||g")
+	read_count=$(samtools flagstat $bam_file|grep "properly paired"| awk -F " " '{print $1}')
+	echo $prefix_out,$read_count >> $output
 done
-		#samtools flagstat WHB3658_Achromobacter_xylosoxidans_NZ_CP043820.1.bam|awk -F " " '{print $1}'

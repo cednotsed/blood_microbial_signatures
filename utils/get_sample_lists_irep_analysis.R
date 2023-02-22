@@ -1,18 +1,18 @@
 rm(list = ls())
-setwd("../Desktop/git_repos/blood_microbiome/")
+setwd("../Desktop/git_repos/blood_microbial_signatures/")
 require(tidyverse)
 require(data.table)
 require(foreach)
 
 # NPM data
-fasta_files <- list.files("data/irep_data/genome_references/")
+fasta_files <- list.files("data/irep_data/genome_references/noncontams/")
 # fasta_files <- list.files("data/irep_data/genome_references_Paraburkholderia/")
-fasta_files <- fasta_files[grepl("fasta", fasta_files)]
+fasta_files <- fasta_files[grepl("fna", fasta_files)]
 df <- fread("results/decontamination/read_matrix.raw.zeroed.csv")
 taxa <- colnames(df)
-out_dir <- "data/irep_data/sample_lists"
+out_dir <- "data/irep_data/sample_lists/noncontams/"
 n_top <- 5
-
+fasta_files
 # Poore et al
 # fasta_files <- list.files("data/poore_et_al/genome_references_poore/")
 # fasta_files <- fasta_files[grepl("fasta", fasta_files)]
@@ -55,7 +55,7 @@ for (fasta_name in fasta_files) {
         head(n_top) %>%
         select(npm_research_id)
       
-      save_name <- gsub(".fasta", "", fasta_name)
+      save_name <- gsub(".fna", "", fasta_name)
       
       fwrite(temp_list, str_glue("{out_dir}/{save_name}.txt"), 
              col.names = F,

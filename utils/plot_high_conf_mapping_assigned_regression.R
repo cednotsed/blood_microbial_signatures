@@ -1,4 +1,4 @@
-setwd("../Desktop/git_repos/blood_microbiome/")
+setwd("c:/git_repos/blood_microbial_signatures/")
 require(tidyverse)
 require(data.table)
 require(foreach)
@@ -30,15 +30,16 @@ slp <- linreg$coefficients[2]
 itx <- linreg$coefficients[1]
 
 summary(linreg)
+
 plot_df %>%
   mutate(annot = factor(annot, c(T, F))) %>%
   ggplot(aes(x = log_assigned, 
              y = log_mapped,
              color = annot)) +
   geom_point() +
-  geom_text(aes(label = annot_text), 
-            color = "black",
-            size = 2) +
+  # geom_text(aes(label = annot_text), 
+  #           color = "black",
+  #           size = 2) +
   geom_abline(intercept = itx, slope = slp) +
   labs(x = "log10(Kraken2 assigned pairs)", 
        y = "log10(Bowtie2 mapped pairs)",
@@ -46,15 +47,26 @@ plot_df %>%
   annotate(geom = "text",
            x = 1, y = 6, 
            hjust = 0,
-           label = str_glue("y = {round(slp, 2)}x{round(itx, 2)}"))
+           label = str_glue("y = {round(slp, 2)}x{round(itx, 2)}")) +
+  annotate(geom = "text",
+           x = 1, y = 5.5, 
+           hjust = 0,
+           label = "F=154.9, d.f.=1, p=0") +
+  theme_bw()
 
-ggsave("results/irep_analysis/mapped_assigned_regression.png", 
+ggsave("results/publication_figure_files/Fig_S1_mapped_assigned_regression.pdf", 
        dpi = 600,
        height = 5,
        width = 7)  
 
+plot_df %>% 
+  dplyr::select(prefix, npm_research_id, pairs_assigned, 
+         log_assigned, microbe_pairs_mapped, log_mapped,
+         studres, annot) %>%
+  fwrite("results/figure_source_data_nat_micro/Fig_S1_mapped_assigned_regresion.csv")
+  
+
 # How many outlier points???
-plot_df %>% filter(annot) %>% View()
 # plot_df %>%
 #   mutate(annot = factor(annot, c(T, F))) %>%
 #   ggplot(aes(x = log_assigned, 

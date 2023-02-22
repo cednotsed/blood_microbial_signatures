@@ -1,0 +1,57 @@
+#!/bin/bash
+#PBS -q normal
+#PBS -l select=1:ncpus=24:mem=96G
+#PBS -l walltime=06:00:00
+#PBS -P 14001280
+#PBS -N sim_pipe_10e-3
+## Extract unmapped read and mates from CRAM files ##
+# Input: CRAM file
+# Output: fastq file containing read and mates
+
+source ~/miniconda3/etc/profile.d/conda.sh
+
+WKDIR=/home/projects/14001280/PROJECTS/blood_microbiome/results/simulation_out
+SCRIPTS=/home/projects/14001280/PROJECTS/blood_microbiome/pipeline_2
+N_THREADS=24
+
+# Create directories 
+mkdir ${WKDIR}
+mkdir ${WKDIR}/01_bam ${WKDIR}/01_fastq/ ${WKDIR}/02_fastq/ ${WKDIR}/03_fastq/ ${WKDIR}/04_fastq/ ${WKDIR}/05_fastq/ ${WKDIR}/06_reports/ ${WKDIR}/06_unclassified_fastq/ ${WKDIR}/07_abundance_matrix/
+
+COHORT=lol
+MUX=simulated
+SAMPLE=human_10e-3_microbe
+
+# Align to human reference
+conda activate base
+data=/home/projects/14001280/PROJECTS/blood_microbiome/data/simulation_references
+
+bowtie2 -x ${data}/human/ref \
+	-p ${N_THREADS} \
+	-1 ${data}/simulated_reads/simulated.${SAMPLE}.1.fastq \
+	-2 ${data}/simulated_reads/simulated.${SAMPLE}.2.fastq | samtools view -C -T ${data}/human/GRCh38_latest_genomic.fna > ${data}/simulated_reads/simulated.${SAMPLE}.cram
+
+## Run pipeline ######################################
+conda activate metameta
+
+# Step 1: Extract unmapped read and mates from CRAM files
+sh ${SCRIPTS}/simulation_extract_unmapped_reads_and_mates.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 1
+	
+# Step 2: Remove reads with only Ns
+sh ${SCRIPTS}/remove_Ns.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 2
+
+# Step 3: Quality trimming        
+sh ${SCRIPTS}/quality_trim.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 3
+	
+# Step 4: Quality filtering
+sh ${SCRIPTS}/quality_filter.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 4
+        
+#Step 5: Remove low complexity reads
+sh ${SCRIPTS}/remove_low_complexity.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 5
+       
+# Step 6: Kraken2 classification
+sh ${SCRIPTS}/kraken2_assignment.sh $COHORT $MUX $SAMPLE $WKDIR $N_THREADS 6
+	
+## Step 7: Parse Kraken2 reports
+sh ${SCRIPTS}/parse_kraken2_report.sh $WKDIR $SCRIPTS 7
+echo -------SCRIPT COMPLETE------- 

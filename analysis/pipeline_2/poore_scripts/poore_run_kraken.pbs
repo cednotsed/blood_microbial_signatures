@@ -1,0 +1,42 @@
+#!/bin/bash
+#PBS -q normal
+#PBS -l select=1:ncpus=24:mem=60G
+#PBS -l walltime=06:00:00
+#PBS -P personal-tancsc
+#PBS -N poore_kraken_only
+
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate metagenomics
+
+wkdir=/home/projects/14001280/PROJECTS/blood_microbiome/data/poore_et_al
+fastq_dir=$wkdir/raw_fastqs
+out_dir=$wkdir/kraken2_reports
+
+N_THREADS=24
+TMPDIR=/home/projects/14001280/PROJECTS/blood_microbiome/data/kraken2_classification_temp_output/temp_out.txt
+DB=/home/projects/14001280/PROJECTS/blood_microbiome/database/k2_pluspf_20210517
+
+for input1 in $fastq_dir/*_1.fastq.gz
+do
+	input2=$(echo ${input1}| sed "s|_1.fastq.gz|_2.fastq.gz|g")
+	output1=$(echo ${input1}| sed "s|_1.fastq.gz|.tsv|g"| sed "s|$fastq_dir|$out_dir|g")
+	output2=$(echo ${input1}| sed "s|_1.fastq|.unclassified.#.fastq|g"| sed "s|raw_fastqs|unclassified_fastqs|g")
+	echo $input1
+	echo $input2
+	echo $output1
+	echo $output2
+	#echo test > $output1
+	#echo test2 > $output2
+
+	kraken2 \
+        	--threads $N_THREADS \
+        	--db ${DB} \
+        	--paired \
+		--gzip-compressed \
+        	--report ${output1} \
+        	--output ${TMPDIR}/temp_output \
+        	--unclassified-out ${output2} \
+        	${input1} ${input2}
+
+done
+
