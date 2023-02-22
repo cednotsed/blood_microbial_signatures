@@ -7,4 +7,4 @@
 
 Correspondence: cedriccstan@gmail.com (C.C.S. Tan) or nagarajann@gis.a-star.edu.sg (N. Nagarajan)
 
-![Models of microbes in blood](extended_data_figures/Fig_S8_summary_figure.pdf)
+![Models of microbes in blood](extended_data_figures/Fig_S8_summary_figure.png)
